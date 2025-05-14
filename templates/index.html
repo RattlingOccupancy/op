@@ -38,21 +38,38 @@
                 <span class="hashtag">#ExampleTopic</span>
                 <span class="tweet-count">100 tweets analyzed</span>
             </div>
-            
-          <div class="sentiment-summary" id="sentimentSummary">
-    <!-- Emotion cards will be added dynamically -->
-</div>
 
-            
-            <div class="dominant-sentiment">
-                Dominant sentiment: Positive 😊
-            </div>
-            
-            <div class="chart-container">
-                <div class="chart-bar positive-bar" style="height: 60%;"></div>
-                <div class="chart-bar negative-bar" style="height: 40%;"></div>
-                <div class="chart-label positive-label">Positive</div>
-                <div class="chart-label negative-label">Negative</div>
+            <!-- NEW WRAPPER -->
+            <div class="results-content-wrapper">
+                <!-- NEW LEFT PANEL -->
+                <div class="results-left-panel">
+                    <div class="sentiment-summary" id="sentimentSummary">
+                        <!-- Emotion cards will be added dynamically -->
+                    </div>
+                    <div class="dominant-sentiment">
+                        Dominant sentiment: Positive 😊
+                    </div>
+                </div>
+
+                <!-- NEW RIGHT PANEL -->
+                <div class="results-right-panel">
+                    <!-- Existing main graph -->
+                    <div class="chart-container">
+                        <div class="chart-bar positive-bar" style="height: 60%;"></div>
+                        <div class="chart-bar negative-bar" style="height: 40%;"></div>
+                        <div class="chart-label positive-label">Positive</div>
+                        <div class="chart-label negative-label">Negative</div>
+                    </div>
+
+                    <!-- NEW Individual Emotion Chart Container -->
+                    <div class="individual-emotion-chart-container" id="individualEmotionChart" style="display: none;">
+                        <h3 class="individual-emotion-title" id="individualEmotionName">Emotion Detail</h3>
+                        <div class="individual-bar-wrapper">
+                            <div class="individual-emotion-bar" id="individualEmotionBar" style="height: 0%;"></div>
+                        </div>
+                        <div class="individual-emotion-percentage" id="individualEmotionPercentage">0%</div>
+                    </div>
+                </div>
             </div>
         </div>
         

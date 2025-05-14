@@ -11,19 +11,21 @@ document.addEventListener('DOMContentLoaded', function() {
     // Star properties
     const stars = [];
     const starCount = Math.floor((window.innerWidth * window.innerHeight) / 1000);
-    const starSpeed = 0.03;
+    // const starSpeed = 0.03; // Original starSpeed, seems unused in the draw loop for overall speed
     let mouseX = 0;
     let mouseY = 0;
 
     // Initialize stars
     function initStars() {
-        for (let i = 0; i < starCount; i++) {
+        stars.length = 0; // Clear existing stars before re-initializing
+        const newStarCount = Math.floor((window.innerWidth * window.innerHeight) / 1000);
+        for (let i = 0; i < newStarCount; i++) {
             stars.push({
                 x: Math.random() * canvas.width,
                 y: Math.random() * canvas.height,
                 size: Math.random() * 2 + 0.5,
                 opacity: Math.random() * 0.8 + 0.2,
-                speed: (Math.random() * 0.05 + 0.01) * 0.2 
+                speed: (Math.random() * 0.05 + 0.01) * 0.2
             });
         }
     }
@@ -31,58 +33,58 @@ document.addEventListener('DOMContentLoaded', function() {
     // Draw stars
     function drawStars() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        
+
         // Create gradient background
         const gradientBg = ctx.createLinearGradient(0, 0, 0, canvas.height);
         gradientBg.addColorStop(0, '#0c0c16');
         gradientBg.addColorStop(1, '#1a1a2e');
-        
+
         ctx.fillStyle = gradientBg;
         ctx.fillRect(0, 0, canvas.width, canvas.height);
-        
+
         // Draw each star
         for (let i = 0; i < stars.length; i++) {
             const star = stars[i];
-            
+
             // Move star based on mouse position
             star.x += (mouseX - canvas.width / 2) * star.speed;
             star.y += (mouseY - canvas.height / 2) * star.speed;
-            
+
             // Wrap stars around screen
             if (star.x < 0) star.x = canvas.width;
             if (star.x > canvas.width) star.x = 0;
             if (star.y < 0) star.y = canvas.height;
             if (star.y > canvas.height) star.y = 0;
-            
+
             // Draw star with glow
             ctx.beginPath();
             ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
-            
+
             const starGradient = ctx.createRadialGradient(
-                star.x, star.y, 0, 
+                star.x, star.y, 0,
                 star.x, star.y, star.size * 2
             );
-            
+
             starGradient.addColorStop(0, `rgba(255, 255, 255, ${star.opacity})`);
             starGradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
-            
+
             ctx.fillStyle = starGradient;
             ctx.fill();
         }
-        
+
         // Add ambient light glow effect
         const ambientGlow = ctx.createRadialGradient(
             mouseX, mouseY, 0,
             mouseX, mouseY, canvas.width / 2
         );
-        
+
         ambientGlow.addColorStop(0, 'rgba(0, 219, 222, 0.03)');
         ambientGlow.addColorStop(0.5, 'rgba(252, 0, 255, 0.01)');
         ambientGlow.addColorStop(1, 'rgba(0, 0, 0, 0)');
-        
+
         ctx.fillStyle = ambientGlow;
         ctx.fillRect(0, 0, canvas.width, canvas.height);
-        
+
         requestAnimationFrame(drawStars);
     }
 
@@ -90,12 +92,12 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('mousemove', function(e) {
         mouseX = e.clientX;
         mouseY = e.clientY;
-        
+
         // Update search box glow effect
         const searchBox = document.getElementById('searchBox');
         if (searchBox) {
             const glowEffect = searchBox.querySelector('.glow-effect');
-            if (glowEffect) { 
+            if (glowEffect) {
                 glowEffect.style.setProperty('--x', mouseX + 'px');
                 glowEffect.style.setProperty('--y', mouseY + 'px');
             }
@@ -106,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('resize', function() {
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
-        stars.length = 0; // Clear existing stars
+        // stars.length = 0; // Clear existing stars - initStars will do this
         initStars();
     });
 
@@ -115,80 +117,133 @@ document.addEventListener('DOMContentLoaded', function() {
     drawStars();
 
     // Setup the analyze button with API call to backend
-    document.getElementById('analyzeBtn').addEventListener('click', function() {
-        const topic = document.getElementById('topicInput').value.trim();
+    const analyzeBtn = document.getElementById('analyzeBtn');
+    const topicInput = document.getElementById('topicInput');
+    const loadingBox = document.getElementById('loadingBox');
+    const resultsBox = document.getElementById('resultsBox');
+    const errorBox = document.getElementById('errorBox');
+    const sentimentSummaryContainer = document.getElementById('sentimentSummary');
+    const hashtagEl = resultsBox.querySelector('.hashtag');
+    const tweetCountEl = resultsBox.querySelector('.tweet-count');
+    const dominantSentimentEl = resultsBox.querySelector('.dominant-sentiment');
+
+    // Individual Emotion Chart Elements
+    const individualEmotionChartEl = document.getElementById('individualEmotionChart');
+    const individualEmotionNameEl = document.getElementById('individualEmotionName');
+    const individualEmotionBarEl = document.getElementById('individualEmotionBar');
+    const individualEmotionPercentageEl = document.getElementById('individualEmotionPercentage');
+
+    let currentVisibleIndividualChart = false;
+
+    function showIndividualEmotionGraph(emotionName, percentage) {
+        const capitalizedEmotion = emotionName.charAt(0).toUpperCase() + emotionName.slice(1);
+        individualEmotionNameEl.textContent = `${capitalizedEmotion} Detail`;
+        individualEmotionBarEl.style.height = `${percentage}%`; // Percentage will be used for height
+        individualEmotionPercentageEl.textContent = `${percentage.toFixed(2)}%`;
+        
+        individualEmotionChartEl.style.display = 'block';
+        // Optional: Add a small animation
+        setTimeout(() => {
+            individualEmotionChartEl.style.opacity = '1';
+            individualEmotionChartEl.style.transform = 'translateY(0)';
+        }, 10); // slight delay for display:block to take effect
+        currentVisibleIndividualChart = true;
+    }
+
+    function hideIndividualEmotionGraph() {
+        if (!currentVisibleIndividualChart) return; // Don't hide if already hidden or being updated
+
+        individualEmotionChartEl.style.opacity = '0';
+        individualEmotionChartEl.style.transform = 'translateY(10px)';
+        setTimeout(() => {
+            // Check again in case another hover started before this timeout executed
+            if (!currentVisibleIndividualChart) {
+                 individualEmotionChartEl.style.display = 'none';
+            }
+        }, 300); // Match CSS transition time (if any, or just a delay for fade out)
+    }
+
+
+    analyzeBtn.addEventListener('click', function() {
+        const topic = topicInput.value.trim();
         
         if (topic) {
-            // Show loading state
-            document.getElementById('loadingBox').style.display = 'block';
-            document.getElementById('resultsBox').style.display = 'none';
-            document.getElementById('errorBox').style.display = 'none';
+            loadingBox.style.display = 'block';
+            resultsBox.style.display = 'none';
+            errorBox.style.display = 'none';
+            if (individualEmotionChartEl) { // Check if element exists
+                individualEmotionChartEl.style.display = 'none'; // Hide on new analysis
+            }
+            currentVisibleIndividualChart = false;
             
-            // Make API call to Flask backend
             fetch('/analyze', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
+                headers: { 'Content-Type': 'application/json', },
                 body: JSON.stringify({ topic: topic })
             })
             .then(response => response.json())
             .then(data => {
-                // Hide loading
-                document.getElementById('loadingBox').style.display = 'none';
+                loadingBox.style.display = 'none';
                 
                 if (data.success) {
-                    // Show results
-                    const resultsBox = document.getElementById('resultsBox');
                     resultsBox.style.display = 'block';
+                    hashtagEl.textContent = '#' + topic.replace(/\s+/g, ''); // Remove spaces for hashtag
                     
-                    // Set topic hashtag
-                    document.querySelector('.hashtag').textContent = '#' + topic;
+                    sentimentSummaryContainer.innerHTML = ''; // Clear previous cards
+
+                    const emotions = data.emotion_percentages;
+                    const counts = data.emotion_counts;
+
+                    for (const emotion in emotions) {
+                        const percent = emotions[emotion]; // Use the direct value
+                        const count = counts[emotion];
+
+                        const card = document.createElement('div');
+                        card.className = 'sentiment-card';
+                        // Store data for individual graph
+                        card.dataset.emotion = emotion;
+                        card.dataset.percentage = percent.toFixed(2);
+
+                        card.innerHTML = `
+                            <div class="percent">${percent.toFixed(2)}%</div>
+                            <div class="count">${count} ${emotion.charAt(0).toUpperCase() + emotion.slice(1)} Tweets</div>
+                        `;
+                        
+                        // Event listeners for individual graph
+                        card.addEventListener('mouseenter', () => {
+                             currentVisibleIndividualChart = true; // Mark as potentially visible
+                            showIndividualEmotionGraph(card.dataset.emotion, parseFloat(card.dataset.percentage));
+                        });
+                        card.addEventListener('mouseleave', () => {
+                            currentVisibleIndividualChart = false;
+                            // Only hide if mouse truly left and not immediately re-entered another card
+                            setTimeout(hideIndividualEmotionGraph, 100); 
+                        });
+                        // For mobile: click to show/update
+                        card.addEventListener('click', () => {
+                            currentVisibleIndividualChart = true;
+                            showIndividualEmotionGraph(card.dataset.emotion, parseFloat(card.dataset.percentage));
+                            // On mobile, it will stay visible until another card is clicked or it's explicitly hidden
+                        });
+
+                        sentimentSummaryContainer.appendChild(card);
+                    }
                     
-                   
-// Render 8 emotion cards dynamically
-const summaryContainer = document.getElementById('sentimentSummary');
-summaryContainer.innerHTML = '';
-
-const emotions = data.emotion_percentages;
-const counts = data.emotion_counts;
-
-for (const emotion in emotions) {
-    const percent = emotions[emotion].toFixed(2);
-    const count = counts[emotion];
-
-    const card = document.createElement('div');
-    card.className = 'sentiment-card';
-    card.innerHTML = `
-        <div class="percent">${percent}%</div>
-        <div class="count">${count} ${emotion.charAt(0).toUpperCase() + emotion.slice(1)} Tweets</div>
-    `;
-    summaryContainer.appendChild(card);
-}
-
-
-
-
-
+                    dominantSentimentEl.textContent = 
+                        'Dominant emotion: ' + data.dominant.charAt(0).toUpperCase() + data.dominant.slice(1);
                     
-                  document.querySelector('.dominant-sentiment').textContent = 
-    'Dominant emotion: ' + data.dominant.charAt(0).toUpperCase() + data.dominant.slice(1);
-
+                    tweetCountEl.textContent = data.total_tweets + ' tweets analyzed';
                     
-                    document.querySelector('.tweet-count').textContent = data.total_tweets + ' tweets analyzed';
-                    
-                    // Add entrance animation
                     resultsBox.style.opacity = '0';
                     resultsBox.style.transform = 'translateY(20px)';
-                    
                     setTimeout(() => {
                         resultsBox.style.transition = 'opacity 0.5s, transform 0.5s';
                         resultsBox.style.opacity = '1';
                         resultsBox.style.transform = 'translateY(0)';
                     }, 50);
+
                 } else {
                     // Show error
-                    const errorBox = document.getElementById('errorBox');
                     errorBox.style.display = 'block';
                     errorBox.textContent = data.error || 'Error analyzing the topic. Please try again.';
                     
@@ -198,8 +253,7 @@ for (const emotion in emotions) {
                 }
             })
             .catch(error => {
-                document.getElementById('loadingBox').style.display = 'none';
-                const errorBox = document.getElementById('errorBox');
+                loadingBox.style.display = 'none';
                 errorBox.style.display = 'block';
                 errorBox.textContent = 'Network error. Please check your connection and try again.';
                 
@@ -208,7 +262,6 @@ for (const emotion in emotions) {
                 }, 5000);
             });
         } else {
-            const errorBox = document.getElementById('errorBox');
             errorBox.style.display = 'block';
             errorBox.textContent = 'Please enter a topic to analyze';
             
