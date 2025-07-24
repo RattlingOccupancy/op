@@ -1,0 +1,1408 @@
+2025-07-24 20:35:43,354 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-24 20:35:43,355 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 20:35:43,357 - INFO -  * Restarting with stat
+2025-07-24 20:35:46,608 - WARNING -  * Debugger is active!
+2025-07-24 20:35:46,613 - INFO -  * Debugger PIN: 884-572-306
+2025-07-24 20:42:48,836 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-24 20:42:48,836 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 20:42:48,837 - INFO -  * Restarting with stat
+2025-07-24 20:42:51,258 - WARNING -  * Debugger is active!
+2025-07-24 20:42:51,263 - INFO -  * Debugger PIN: 884-572-306
+2025-07-24 20:45:14,525 - INFO - Fetching tweets for AI171
+2025-07-24 20:45:36,305 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-24 20:45:36,307 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 20:45:36,309 - INFO -  * Restarting with stat
+2025-07-24 20:45:38,581 - WARNING -  * Debugger is active!
+2025-07-24 20:45:38,584 - INFO -  * Debugger PIN: 884-572-306
+2025-07-24 20:45:38,896 - INFO - 127.0.0.1 - - [24/Jul/2025 20:45:38] "GET / HTTP/1.1" 200 -
+2025-07-24 20:45:38,920 - INFO - 127.0.0.1 - - [24/Jul/2025 20:45:38] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:45:38,958 - INFO - 127.0.0.1 - - [24/Jul/2025 20:45:38] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:45:44,195 - INFO - Fetching tweets for AI171
+2025-07-24 20:45:50,886 - ERROR - Node.js failed with code 1
+Command: ['node', 'c:\\Users\\shanu\\Desktop\\render deply\\node\\tweet_fetch.js', 'AI171', '200']
+Output: 🚀 Starting fetch for 'ai171 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:15:44.645Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:15:44.647Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:15:44.647Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:15:44.647Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:15:47.837Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:15:47.838Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:15:47.838Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:15:47.838Z] [GET] {"target":"USER_CREDENTIAL"}
+
+Error: ⚠️ API error (switching key): Request failed with status code 404
+❌ No English tweets found
+
+2025-07-24 20:45:50,886 - INFO - 127.0.0.1 - - [24/Jul/2025 20:45:50] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 20:47:09,077 - INFO - Fetching tweets for AI171
+2025-07-24 20:47:33,554 - INFO - Node.js output:
+🚀 Starting fetch for 'ai171 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:17:09.342Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:17:09.343Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:17:09.343Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:17:09.344Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:17:11.788Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:17:11.788Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:17:11.788Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:17:11.788Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:17:17.774Z] [DESERIALIZE] {"id":"1946611470906909163"}
+[Rettiwt-API] [2025-07-24T15:17:17.774Z] [DESERIALIZE] {"id":"1942295855895097448"}
+[Rettiwt-API] [2025-07-24T15:17:17.775Z] [DESERIALIZE] {"id":"1940160943503323305"}
+[Rettiwt-API] [2025-07-24T15:17:17.775Z] [DESERIALIZE] {"id":"1934916056323399751"}
+[Rettiwt-API] [2025-07-24T15:17:17.775Z] [DESERIALIZE] {"id":"1934897341904863487"}
+[Rettiwt-API] [2025-07-24T15:17:17.775Z] [DESERIALIZE] {"id":"1934885453485736164"}
+[Rettiwt-API] [2025-07-24T15:17:17.775Z] [DESERIALIZE] {"id":"1933824939850666416"}
+[Rettiwt-API] [2025-07-24T15:17:17.775Z] [DESERIALIZE] {"id":"1933691135719072073"}
+[Rettiwt-API] [2025-07-24T15:17:17.775Z] [DESERIALIZE] {"id":"1933589911069659575"}
+[Rettiwt-API] [2025-07-24T15:17:17.775Z] [DESERIALIZE] {"id":"1933576075805929953"}
+[Rettiwt-API] [2025-07-24T15:17:17.775Z] [DESERIALIZE] {"id":"1933573692241674322"}
+[Rettiwt-API] [2025-07-24T15:17:17.776Z] [DESERIALIZE] {"id":"1933570703384596618"}
+[Rettiwt-API] [2025-07-24T15:17:17.776Z] [DESERIALIZE] {"id":"1933419211746902505"}
+[Rettiwt-API] [2025-07-24T15:17:17.776Z] [DESERIALIZE] {"id":"1933371533088436567"}
+[Rettiwt-API] [2025-07-24T15:17:17.776Z] [DESERIALIZE] {"id":"1933286818948264312"}
+[Rettiwt-API] [2025-07-24T15:17:17.776Z] [DESERIALIZE] {"id":"1933277490224500859"}
+[Rettiwt-API] [2025-07-24T15:17:17.776Z] [DESERIALIZE] {"id":"1933262296954069461"}
+[Rettiwt-API] [2025-07-24T15:17:17.776Z] [DESERIALIZE] {"id":"1933260318781890850"}
+✅ Added 13 new tweets (total: 13/20)
+📡 Fetching 7 tweets...
+[Rettiwt-API] [2025-07-24T15:17:17.805Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":7,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1FIEX1phIgAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCh1m6YAnEAoABhsKHWbpf9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:17:17.805Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:17:17.805Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:17:17.805Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:17:23.163Z] [DESERIALIZE] {"id":"1933260299122941988"}
+[Rettiwt-API] [2025-07-24T15:17:23.164Z] [DESERIALIZE] {"id":"1933250608070602919"}
+[Rettiwt-API] [2025-07-24T15:17:23.164Z] [DESERIALIZE] {"id":"1933243743571681423"}
+✅ Added 1 new tweets (total: 14/20)
+📡 Fetching 6 tweets...
+[Rettiwt-API] [2025-07-24T15:17:23.167Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":6,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1ELxJ9YgjwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCh1m6YAnEAoABhsKHWbpf7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:17:23.167Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:17:23.167Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:17:23.167Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:17:26.273Z] [DESERIALIZE] {"id":"1933240425298735567"}
+[Rettiwt-API] [2025-07-24T15:17:26.273Z] [DESERIALIZE] {"id":"1933235177133912435"}
+[Rettiwt-API] [2025-07-24T15:17:26.273Z] [DESERIALIZE] {"id":"1933228667921945069"}
+[Rettiwt-API] [2025-07-24T15:17:26.273Z] [DESERIALIZE] {"id":"1933224240129400909"}
+[Rettiwt-API] [2025-07-24T15:17:26.273Z] [DESERIALIZE] {"id":"1933223134238552530"}
+[Rettiwt-API] [2025-07-24T15:17:26.273Z] [DESERIALIZE] {"id":"1933221549970239579"}
+✅ Added 2 new tweets (total: 16/20)
+📡 Fetching 4 tweets...
+[Rettiwt-API] [2025-07-24T15:17:26.281Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":4,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1C7BzhswWwAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCh1m6YAnEAoABhsKHWbpf4rQAAA"}}
+[Rettiwt-API] [2025-07-24T15:17:26.281Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:17:26.281Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:17:26.281Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:17:28.739Z] [DESERIALIZE] {"id":"1933203385424965905"}
+[Rettiwt-API] [2025-07-24T15:17:28.740Z] [DESERIALIZE] {"id":"1933202235502309727"}
+[Rettiwt-API] [2025-07-24T15:17:28.740Z] [DESERIALIZE] {"id":"1933201473246031932"}
+✅ Added 2 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:17:28.744Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":2,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1Bx_VBdwPAAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCh1m6YAnEAoABhsKHWbpf2PAAAA"}}
+[Rettiwt-API] [2025-07-24T15:17:28.744Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:17:28.744Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:17:28.744Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:17:30.922Z] [DESERIALIZE] {"id":"1933199118698201555"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:17:30.924Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":1,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1BpbHhrB0wAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCh1m6YAnEAoABhsKHWbpfzywAAA"}}
+[Rettiwt-API] [2025-07-24T15:17:30.924Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:17:30.924Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:17:30.924Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:17:33.535Z] [DESERIALIZE] {"id":"1933198187466018871"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 20:47:33,897 - INFO - 127.0.0.1 - - [24/Jul/2025 20:47:33] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 20:48:07,817 - INFO - 127.0.0.1 - - [24/Jul/2025 20:48:07] "GET / HTTP/1.1" 200 -
+2025-07-24 20:48:07,858 - INFO - 127.0.0.1 - - [24/Jul/2025 20:48:07] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:48:07,887 - INFO - 127.0.0.1 - - [24/Jul/2025 20:48:07] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:49:10,373 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-24 20:49:10,373 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 20:49:10,376 - INFO -  * Restarting with stat
+2025-07-24 20:49:12,584 - WARNING -  * Debugger is active!
+2025-07-24 20:49:12,589 - INFO -  * Debugger PIN: 884-572-306
+2025-07-24 20:49:22,168 - INFO - 127.0.0.1 - - [24/Jul/2025 20:49:22] "GET / HTTP/1.1" 200 -
+2025-07-24 20:49:22,190 - INFO - 127.0.0.1 - - [24/Jul/2025 20:49:22] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:49:22,218 - INFO - 127.0.0.1 - - [24/Jul/2025 20:49:22] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:49:27,618 - INFO - Fetching tweets for AI171
+2025-07-24 20:49:49,948 - INFO - Node.js output:
+🚀 Starting fetch for 'ai171 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:19:27.903Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:19:27.904Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:19:27.904Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:19:27.904Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:19:33.128Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:19:33.129Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:19:33.129Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:19:33.129Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:19:38.758Z] [DESERIALIZE] {"id":"1946611470906909163"}
+[Rettiwt-API] [2025-07-24T15:19:38.759Z] [DESERIALIZE] {"id":"1942295855895097448"}
+[Rettiwt-API] [2025-07-24T15:19:38.759Z] [DESERIALIZE] {"id":"1940160943503323305"}
+[Rettiwt-API] [2025-07-24T15:19:38.759Z] [DESERIALIZE] {"id":"1934916056323399751"}
+[Rettiwt-API] [2025-07-24T15:19:38.760Z] [DESERIALIZE] {"id":"1934897341904863487"}
+[Rettiwt-API] [2025-07-24T15:19:38.760Z] [DESERIALIZE] {"id":"1934885453485736164"}
+[Rettiwt-API] [2025-07-24T15:19:38.760Z] [DESERIALIZE] {"id":"1933824939850666416"}
+[Rettiwt-API] [2025-07-24T15:19:38.760Z] [DESERIALIZE] {"id":"1933691135719072073"}
+[Rettiwt-API] [2025-07-24T15:19:38.760Z] [DESERIALIZE] {"id":"1933589911069659575"}
+[Rettiwt-API] [2025-07-24T15:19:38.760Z] [DESERIALIZE] {"id":"1933576075805929953"}
+[Rettiwt-API] [2025-07-24T15:19:38.760Z] [DESERIALIZE] {"id":"1933573692241674322"}
+[Rettiwt-API] [2025-07-24T15:19:38.760Z] [DESERIALIZE] {"id":"1933570703384596618"}
+[Rettiwt-API] [2025-07-24T15:19:38.760Z] [DESERIALIZE] {"id":"1933419211746902505"}
+[Rettiwt-API] [2025-07-24T15:19:38.760Z] [DESERIALIZE] {"id":"1933371533088436567"}
+[Rettiwt-API] [2025-07-24T15:19:38.761Z] [DESERIALIZE] {"id":"1933286818948264312"}
+[Rettiwt-API] [2025-07-24T15:19:38.761Z] [DESERIALIZE] {"id":"1933277490224500859"}
+[Rettiwt-API] [2025-07-24T15:19:38.761Z] [DESERIALIZE] {"id":"1933262296954069461"}
+[Rettiwt-API] [2025-07-24T15:19:38.761Z] [DESERIALIZE] {"id":"1933260318781890850"}
+✅ Added 13 new tweets (total: 13/20)
+📡 Fetching 7 tweets...
+[Rettiwt-API] [2025-07-24T15:19:38.787Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":7,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1FIEX1phIgAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCh3wnsAnEAoABhsKHfCev9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:19:38.787Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:19:38.787Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:19:38.787Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:19:40.828Z] [DESERIALIZE] {"id":"1933260299122941988"}
+[Rettiwt-API] [2025-07-24T15:19:40.828Z] [DESERIALIZE] {"id":"1933250608070602919"}
+[Rettiwt-API] [2025-07-24T15:19:40.828Z] [DESERIALIZE] {"id":"1933243743571681423"}
+✅ Added 1 new tweets (total: 14/20)
+📡 Fetching 6 tweets...
+[Rettiwt-API] [2025-07-24T15:19:40.830Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":6,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1ELxJ9YgjwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCh3wnsAnEAoABhsKHfCev7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:19:40.830Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:19:40.830Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:19:40.830Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:19:43.104Z] [DESERIALIZE] {"id":"1933240425298735567"}
+[Rettiwt-API] [2025-07-24T15:19:43.104Z] [DESERIALIZE] {"id":"1933235177133912435"}
+[Rettiwt-API] [2025-07-24T15:19:43.104Z] [DESERIALIZE] {"id":"1933228667921945069"}
+[Rettiwt-API] [2025-07-24T15:19:43.104Z] [DESERIALIZE] {"id":"1933224240129400909"}
+[Rettiwt-API] [2025-07-24T15:19:43.104Z] [DESERIALIZE] {"id":"1933223134238552530"}
+[Rettiwt-API] [2025-07-24T15:19:43.104Z] [DESERIALIZE] {"id":"1933221549970239579"}
+✅ Added 2 new tweets (total: 16/20)
+📡 Fetching 4 tweets...
+[Rettiwt-API] [2025-07-24T15:19:43.111Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":4,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1C7BzhswWwAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCh3wnsAnEAoABhsKHfCev4rQAAA"}}
+[Rettiwt-API] [2025-07-24T15:19:43.111Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:19:43.111Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:19:43.111Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:19:45.337Z] [DESERIALIZE] {"id":"1933203385424965905"}
+[Rettiwt-API] [2025-07-24T15:19:45.337Z] [DESERIALIZE] {"id":"1933202235502309727"}
+[Rettiwt-API] [2025-07-24T15:19:45.337Z] [DESERIALIZE] {"id":"1933201473246031932"}
+✅ Added 2 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:19:45.340Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":2,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1Bx_VBdwPAAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCh3wnsAnEAoABhsKHfCev2PAAAA"}}
+[Rettiwt-API] [2025-07-24T15:19:45.340Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:19:45.340Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:19:45.340Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:19:47.749Z] [DESERIALIZE] {"id":"1933199118698201555"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:19:47.750Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":1,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1BpbHhrB0wAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCh3wnsAnEAoABhsKHfCevzywAAA"}}
+[Rettiwt-API] [2025-07-24T15:19:47.750Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:19:47.750Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:19:47.750Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:19:49.931Z] [DESERIALIZE] {"id":"1933198187466018871"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 20:49:50,174 - INFO - 127.0.0.1 - - [24/Jul/2025 20:49:50] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 20:51:40,341 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:40] "GET / HTTP/1.1" 200 -
+2025-07-24 20:51:40,376 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:40] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:51:40,412 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:40] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:51:45,708 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:45] "GET / HTTP/1.1" 200 -
+2025-07-24 20:51:45,743 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:45] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:51:45,743 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:45] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:51:50,388 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:50] "GET / HTTP/1.1" 200 -
+2025-07-24 20:51:50,419 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:50] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:51:50,422 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:50] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:51:50,999 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:50] "GET / HTTP/1.1" 200 -
+2025-07-24 20:51:51,027 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:51] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:51:51,029 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:51] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:51:51,342 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:51] "GET / HTTP/1.1" 200 -
+2025-07-24 20:51:51,369 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:51] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:51:51,371 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:51] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:51:51,527 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:51] "GET / HTTP/1.1" 200 -
+2025-07-24 20:51:51,558 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:51] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:51:51,561 - INFO - 127.0.0.1 - - [24/Jul/2025 20:51:51] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:52:32,185 - INFO - 127.0.0.1 - - [24/Jul/2025 20:52:32] "GET / HTTP/1.1" 200 -
+2025-07-24 20:52:32,218 - INFO - 127.0.0.1 - - [24/Jul/2025 20:52:32] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:52:32,219 - INFO - 127.0.0.1 - - [24/Jul/2025 20:52:32] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:52:40,465 - INFO - 127.0.0.1 - - [24/Jul/2025 20:52:40] "GET / HTTP/1.1" 200 -
+2025-07-24 20:52:40,491 - INFO - 127.0.0.1 - - [24/Jul/2025 20:52:40] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:52:40,493 - INFO - 127.0.0.1 - - [24/Jul/2025 20:52:40] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:52:52,968 - INFO - 127.0.0.1 - - [24/Jul/2025 20:52:52] "GET / HTTP/1.1" 200 -
+2025-07-24 20:52:53,006 - INFO - 127.0.0.1 - - [24/Jul/2025 20:52:53] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:52:53,007 - INFO - 127.0.0.1 - - [24/Jul/2025 20:52:53] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:53:17,747 - INFO - 127.0.0.1 - - [24/Jul/2025 20:53:17] "GET / HTTP/1.1" 200 -
+2025-07-24 20:53:17,773 - INFO - 127.0.0.1 - - [24/Jul/2025 20:53:17] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 20:53:17,774 - INFO - 127.0.0.1 - - [24/Jul/2025 20:53:17] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 20:53:21,297 - INFO - Fetching tweets for AI171
+2025-07-24 20:53:41,008 - INFO - Node.js output:
+🚀 Starting fetch for 'ai171 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:23:21.604Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:23:21.605Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:23:21.605Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:23:21.605Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:23:24.665Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:23:24.665Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:23:24.665Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:23:24.665Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:23:28.757Z] [DESERIALIZE] {"id":"1946611470906909163"}
+[Rettiwt-API] [2025-07-24T15:23:28.758Z] [DESERIALIZE] {"id":"1942295855895097448"}
+[Rettiwt-API] [2025-07-24T15:23:28.758Z] [DESERIALIZE] {"id":"1940160943503323305"}
+[Rettiwt-API] [2025-07-24T15:23:28.758Z] [DESERIALIZE] {"id":"1934916056323399751"}
+[Rettiwt-API] [2025-07-24T15:23:28.758Z] [DESERIALIZE] {"id":"1934897341904863487"}
+[Rettiwt-API] [2025-07-24T15:23:28.758Z] [DESERIALIZE] {"id":"1934885453485736164"}
+[Rettiwt-API] [2025-07-24T15:23:28.758Z] [DESERIALIZE] {"id":"1933824939850666416"}
+[Rettiwt-API] [2025-07-24T15:23:28.758Z] [DESERIALIZE] {"id":"1933691135719072073"}
+[Rettiwt-API] [2025-07-24T15:23:28.758Z] [DESERIALIZE] {"id":"1933589911069659575"}
+[Rettiwt-API] [2025-07-24T15:23:28.759Z] [DESERIALIZE] {"id":"1933576075805929953"}
+[Rettiwt-API] [2025-07-24T15:23:28.759Z] [DESERIALIZE] {"id":"1933573692241674322"}
+[Rettiwt-API] [2025-07-24T15:23:28.759Z] [DESERIALIZE] {"id":"1933570703384596618"}
+[Rettiwt-API] [2025-07-24T15:23:28.759Z] [DESERIALIZE] {"id":"1933419211746902505"}
+[Rettiwt-API] [2025-07-24T15:23:28.759Z] [DESERIALIZE] {"id":"1933371533088436567"}
+[Rettiwt-API] [2025-07-24T15:23:28.759Z] [DESERIALIZE] {"id":"1933286818948264312"}
+[Rettiwt-API] [2025-07-24T15:23:28.759Z] [DESERIALIZE] {"id":"1933277490224500859"}
+[Rettiwt-API] [2025-07-24T15:23:28.759Z] [DESERIALIZE] {"id":"1933262296954069461"}
+[Rettiwt-API] [2025-07-24T15:23:28.759Z] [DESERIALIZE] {"id":"1933260318781890850"}
+✅ Added 13 new tweets (total: 13/20)
+📡 Fetching 7 tweets...
+[Rettiwt-API] [2025-07-24T15:23:28.789Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":7,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1FIEX1phIgAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCh7RQEAnEAoABhsKHtFAP9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:23:28.789Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:23:28.789Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:23:28.789Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:23:30.486Z] [DESERIALIZE] {"id":"1933260299122941988"}
+[Rettiwt-API] [2025-07-24T15:23:30.486Z] [DESERIALIZE] {"id":"1933250608070602919"}
+[Rettiwt-API] [2025-07-24T15:23:30.486Z] [DESERIALIZE] {"id":"1933243743571681423"}
+✅ Added 1 new tweets (total: 14/20)
+📡 Fetching 6 tweets...
+[Rettiwt-API] [2025-07-24T15:23:30.489Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":6,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1ELxJ9YgjwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCh7RQEAnEAoABhsKHtFAP7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:23:30.489Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:23:30.489Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:23:30.490Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:23:33.246Z] [DESERIALIZE] {"id":"1933240425298735567"}
+[Rettiwt-API] [2025-07-24T15:23:33.246Z] [DESERIALIZE] {"id":"1933235177133912435"}
+[Rettiwt-API] [2025-07-24T15:23:33.246Z] [DESERIALIZE] {"id":"1933228667921945069"}
+[Rettiwt-API] [2025-07-24T15:23:33.246Z] [DESERIALIZE] {"id":"1933224240129400909"}
+[Rettiwt-API] [2025-07-24T15:23:33.246Z] [DESERIALIZE] {"id":"1933223134238552530"}
+[Rettiwt-API] [2025-07-24T15:23:33.246Z] [DESERIALIZE] {"id":"1933221549970239579"}
+✅ Added 2 new tweets (total: 16/20)
+📡 Fetching 4 tweets...
+[Rettiwt-API] [2025-07-24T15:23:33.253Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":4,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1C7BzhswWwAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCh7RQEAnEAoABhsKHtFAP4rQAAA"}}
+[Rettiwt-API] [2025-07-24T15:23:33.253Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:23:33.253Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:23:33.253Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:23:35.957Z] [DESERIALIZE] {"id":"1933203385424965905"}
+[Rettiwt-API] [2025-07-24T15:23:35.957Z] [DESERIALIZE] {"id":"1933202235502309727"}
+[Rettiwt-API] [2025-07-24T15:23:35.957Z] [DESERIALIZE] {"id":"1933201473246031932"}
+✅ Added 2 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:23:35.961Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":2,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1Bx_VBdwPAAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCh7RQEAnEAoABhsKHtFAP2PAAAA"}}
+[Rettiwt-API] [2025-07-24T15:23:35.961Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:23:35.961Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:23:35.961Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:23:38.646Z] [DESERIALIZE] {"id":"1933199118698201555"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:23:38.649Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":1,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1BpbHhrB0wAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCh7RQEAnEAoABhsKHtFAPzywAAA"}}
+[Rettiwt-API] [2025-07-24T15:23:38.649Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:23:38.649Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:23:38.649Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:23:40.989Z] [DESERIALIZE] {"id":"1933198187466018871"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 20:53:41,009 - ERROR - Node.js errors:
+⚠️ API error (switching key): Request failed with status code 404
+
+2025-07-24 20:53:41,245 - INFO - 127.0.0.1 - - [24/Jul/2025 20:53:41] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:02:13,740 - INFO - 127.0.0.1 - - [24/Jul/2025 21:02:13] "GET / HTTP/1.1" 200 -
+2025-07-24 21:02:13,774 - INFO - 127.0.0.1 - - [24/Jul/2025 21:02:13] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:02:13,793 - INFO - 127.0.0.1 - - [24/Jul/2025 21:02:13] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:02:20,521 - INFO - Fetching tweets for AI171
+2025-07-24 21:02:43,234 - INFO - Node.js output:
+🚀 Starting fetch for 'ai171 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:32:20.874Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:32:20.876Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:32:20.876Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:32:20.876Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:32:25.078Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:32:25.078Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:32:25.078Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:32:25.078Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:32:28.289Z] [DESERIALIZE] {"id":"1946611470906909163"}
+[Rettiwt-API] [2025-07-24T15:32:28.289Z] [DESERIALIZE] {"id":"1942295855895097448"}
+[Rettiwt-API] [2025-07-24T15:32:28.289Z] [DESERIALIZE] {"id":"1940160943503323305"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1934916056323399751"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1934897341904863487"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1934885453485736164"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1933824939850666416"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1933691135719072073"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1933589911069659575"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1933576075805929953"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1933573692241674322"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1933570703384596618"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1933419211746902505"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1933371533088436567"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1933286818948264312"}
+[Rettiwt-API] [2025-07-24T15:32:28.290Z] [DESERIALIZE] {"id":"1933277490224500859"}
+[Rettiwt-API] [2025-07-24T15:32:28.291Z] [DESERIALIZE] {"id":"1933262296954069461"}
+[Rettiwt-API] [2025-07-24T15:32:28.291Z] [DESERIALIZE] {"id":"1933260318781890850"}
+✅ Added 13 new tweets (total: 13/20)
+📡 Fetching 7 tweets...
+[Rettiwt-API] [2025-07-24T15:32:28.321Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":7,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1FIEX1phIgAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCiDgHIAnEAoABhsKIOAcf9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:32:28.321Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:32:28.321Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:32:28.321Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:32:33.132Z] [DESERIALIZE] {"id":"1933260299122941988"}
+[Rettiwt-API] [2025-07-24T15:32:33.132Z] [DESERIALIZE] {"id":"1933250608070602919"}
+[Rettiwt-API] [2025-07-24T15:32:33.132Z] [DESERIALIZE] {"id":"1933243743571681423"}
+✅ Added 1 new tweets (total: 14/20)
+📡 Fetching 6 tweets...
+[Rettiwt-API] [2025-07-24T15:32:33.136Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":6,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1ELxJ9YgjwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCiDgHIAnEAoABhsKIOAcf7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:32:33.136Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:32:33.136Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:32:33.136Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:32:35.658Z] [DESERIALIZE] {"id":"1933240425298735567"}
+[Rettiwt-API] [2025-07-24T15:32:35.658Z] [DESERIALIZE] {"id":"1933235177133912435"}
+[Rettiwt-API] [2025-07-24T15:32:35.658Z] [DESERIALIZE] {"id":"1933228667921945069"}
+[Rettiwt-API] [2025-07-24T15:32:35.659Z] [DESERIALIZE] {"id":"1933224240129400909"}
+[Rettiwt-API] [2025-07-24T15:32:35.659Z] [DESERIALIZE] {"id":"1933223134238552530"}
+[Rettiwt-API] [2025-07-24T15:32:35.659Z] [DESERIALIZE] {"id":"1933221549970239579"}
+✅ Added 2 new tweets (total: 16/20)
+📡 Fetching 4 tweets...
+[Rettiwt-API] [2025-07-24T15:32:35.666Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":4,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1C7BzhswWwAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCiDgHIAnEAoABhsKIOAcf4rQAAA"}}
+[Rettiwt-API] [2025-07-24T15:32:35.666Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:32:35.666Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:32:35.666Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:32:38.264Z] [DESERIALIZE] {"id":"1933203385424965905"}
+[Rettiwt-API] [2025-07-24T15:32:38.264Z] [DESERIALIZE] {"id":"1933202235502309727"}
+[Rettiwt-API] [2025-07-24T15:32:38.264Z] [DESERIALIZE] {"id":"1933201473246031932"}
+✅ Added 2 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:32:38.268Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":2,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1Bx_VBdwPAAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCiDgHIAnEAoABhsKIOAcf2PAAAA"}}
+[Rettiwt-API] [2025-07-24T15:32:38.268Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:32:38.268Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:32:38.268Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:32:41.161Z] [DESERIALIZE] {"id":"1933199118698201555"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:32:41.163Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":1,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1BpbHhrB0wAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCiDgHIAnEAoABhsKIOAcfzywAAA"}}
+[Rettiwt-API] [2025-07-24T15:32:41.163Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:32:41.163Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:32:41.163Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:32:43.220Z] [DESERIALIZE] {"id":"1933198187466018871"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 21:02:43,379 - INFO - 127.0.0.1 - - [24/Jul/2025 21:02:43] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:04:21,806 - INFO - 127.0.0.1 - - [24/Jul/2025 21:04:21] "GET / HTTP/1.1" 200 -
+2025-07-24 21:04:21,834 - INFO - 127.0.0.1 - - [24/Jul/2025 21:04:21] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:04:21,850 - INFO - 127.0.0.1 - - [24/Jul/2025 21:04:21] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:04:28,028 - INFO - Fetching tweets for AI171
+2025-07-24 21:04:58,157 - ERROR - Node.js failed with code 1
+Command: ['node', 'c:\\Users\\shanu\\Desktop\\render deply\\node\\tweet_fetch.js', 'AI171', '200']
+Output: 🚀 Starting fetch for 'ai171 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:34:28.378Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:34:28.380Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:34:28.381Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:34:28.381Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:34:32.502Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:34:32.502Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:34:32.503Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:34:32.503Z] [GET] {"target":"USER_CREDENTIAL"}
+
+Error: ⚠️ API error (switching key): Request failed with status code 404
+❌ No English tweets found
+
+2025-07-24 21:04:58,157 - INFO - 127.0.0.1 - - [24/Jul/2025 21:04:58] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:05:11,881 - INFO - Fetching tweets for AI171
+2025-07-24 21:05:38,534 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-24 21:05:38,535 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 21:05:38,536 - INFO -  * Restarting with stat
+2025-07-24 21:05:40,712 - WARNING -  * Debugger is active!
+2025-07-24 21:05:40,723 - INFO -  * Debugger PIN: 884-572-306
+2025-07-24 21:05:41,003 - INFO - 127.0.0.1 - - [24/Jul/2025 21:05:41] "GET / HTTP/1.1" 200 -
+2025-07-24 21:05:41,040 - INFO - 127.0.0.1 - - [24/Jul/2025 21:05:41] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:05:41,042 - INFO - 127.0.0.1 - - [24/Jul/2025 21:05:41] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:05:45,196 - INFO - Fetching tweets for AI171
+2025-07-24 21:05:54,732 - ERROR - Node.js failed with code 1
+Command: ['node', 'c:\\Users\\shanu\\Desktop\\render deply\\node\\tweet_fetch.js', 'AI171', '200']
+Output: 🚀 Starting fetch for 'ai171 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:35:45.470Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:35:45.471Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:35:45.471Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:35:45.472Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:35:49.653Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:35:49.653Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:35:49.653Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:35:49.653Z] [GET] {"target":"USER_CREDENTIAL"}
+
+Error: ⚠️ API error (switching key): Request failed with status code 404
+❌ No English tweets found
+
+2025-07-24 21:05:54,733 - INFO - 127.0.0.1 - - [24/Jul/2025 21:05:54] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:06:06,007 - INFO - Fetching tweets for trump
+2025-07-24 21:06:27,196 - INFO - Node.js output:
+🚀 Starting fetch for 'trump 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:36:06.342Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["trump 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:36:06.343Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:36:06.344Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:36:06.344Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:36:09.392Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["trump 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:36:09.392Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:36:09.392Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:36:09.392Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:36:15.431Z] [DESERIALIZE] {"id":"1948397778171809837"}
+[Rettiwt-API] [2025-07-24T15:36:15.432Z] [DESERIALIZE] {"id":"1948397772228727218"}
+[Rettiwt-API] [2025-07-24T15:36:15.433Z] [DESERIALIZE] {"id":"1948395611184910832"}
+[Rettiwt-API] [2025-07-24T15:36:15.433Z] [DESERIALIZE] {"id":"1948385510096769224"}
+[Rettiwt-API] [2025-07-24T15:36:15.433Z] [DESERIALIZE] {"id":"1948382379266953241"}
+[Rettiwt-API] [2025-07-24T15:36:15.433Z] [DESERIALIZE] {"id":"1948373062216188271"}
+[Rettiwt-API] [2025-07-24T15:36:15.433Z] [DESERIALIZE] {"id":"1948358643876790512"}
+[Rettiwt-API] [2025-07-24T15:36:15.433Z] [DESERIALIZE] {"id":"1948353073761407389"}
+[Rettiwt-API] [2025-07-24T15:36:15.433Z] [DESERIALIZE] {"id":"1948350694420783543"}
+[Rettiwt-API] [2025-07-24T15:36:15.433Z] [DESERIALIZE] {"id":"1948350604910199221"}
+[Rettiwt-API] [2025-07-24T15:36:15.433Z] [DESERIALIZE] {"id":"1948347899449929762"}
+[Rettiwt-API] [2025-07-24T15:36:15.434Z] [DESERIALIZE] {"id":"1948347758756122695"}
+[Rettiwt-API] [2025-07-24T15:36:15.434Z] [DESERIALIZE] {"id":"1948333496335769662"}
+[Rettiwt-API] [2025-07-24T15:36:15.434Z] [DESERIALIZE] {"id":"1948327688982155329"}
+[Rettiwt-API] [2025-07-24T15:36:15.434Z] [DESERIALIZE] {"id":"1948320752534483270"}
+[Rettiwt-API] [2025-07-24T15:36:15.434Z] [DESERIALIZE] {"id":"1948314924083495250"}
+[Rettiwt-API] [2025-07-24T15:36:15.434Z] [DESERIALIZE] {"id":"1948310503412957312"}
+[Rettiwt-API] [2025-07-24T15:36:15.434Z] [DESERIALIZE] {"id":"1948308949716881643"}
+[Rettiwt-API] [2025-07-24T15:36:15.434Z] [DESERIALIZE] {"id":"1948307897005351059"}
+✅ Added 12 new tweets (total: 12/20)
+📡 Fetching 8 tweets...
+[Rettiwt-API] [2025-07-24T15:36:15.475Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["trump 200"]},"count":8,"cursor":"DAADDAABCgABGwoZdMkXUC0KAAIbCce1shegkwAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCiG9rcAnEAoABhsKIb2tv9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:36:15.475Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:36:15.475Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:36:15.475Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:36:18.248Z] [DESERIALIZE] {"id":"1948303817595822350"}
+[Rettiwt-API] [2025-07-24T15:36:18.249Z] [DESERIALIZE] {"id":"1948295887840497830"}
+[Rettiwt-API] [2025-07-24T15:36:18.249Z] [DESERIALIZE] {"id":"1948275995150024752"}
+[Rettiwt-API] [2025-07-24T15:36:18.249Z] [DESERIALIZE] {"id":"1948268528089346236"}
+[Rettiwt-API] [2025-07-24T15:36:18.249Z] [DESERIALIZE] {"id":"1948234970872394120"}
+[Rettiwt-API] [2025-07-24T15:36:18.249Z] [DESERIALIZE] {"id":"1948230938221281620"}
+✅ Added 2 new tweets (total: 14/20)
+📡 Fetching 6 tweets...
+[Rettiwt-API] [2025-07-24T15:36:18.262Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["trump 200"]},"count":6,"cursor":"DAADDAABCgABGwoZdMkXUC0KAAIbCYG3VRsBVAAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCiG9rcAnEAoABhsKIb2tv7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:36:18.262Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:36:18.263Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:36:18.263Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:36:20.894Z] [DESERIALIZE] {"id":"1948225097514320079"}
+[Rettiwt-API] [2025-07-24T15:36:20.895Z] [DESERIALIZE] {"id":"1948216794239623508"}
+[Rettiwt-API] [2025-07-24T15:36:20.895Z] [DESERIALIZE] {"id":"1948215891646099851"}
+[Rettiwt-API] [2025-07-24T15:36:20.895Z] [DESERIALIZE] {"id":"1948214555223728384"}
+[Rettiwt-API] [2025-07-24T15:36:20.895Z] [DESERIALIZE] {"id":"1948211751386022098"}
+✅ Added 4 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:36:20.904Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["trump 200"]},"count":2,"cursor":"DAADDAABCgABGwoZdMkXUC0KAAIbCXBEDJsA0gAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCiG9rcAnEAoABhsKIb2tv4rQAAA"}}
+[Rettiwt-API] [2025-07-24T15:36:20.904Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:36:20.904Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:36:20.904Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:36:22.771Z] [DESERIALIZE] {"id":"1948191130559881502"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:36:22.774Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["trump 200"]},"count":1,"cursor":"DAADDAABCgABGwoZdMkXUC0KAAIbCV2C45ahHgAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCiG9rcAnEAoABhsKIb2tv2PAAAA"}}
+[Rettiwt-API] [2025-07-24T15:36:22.774Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:36:22.774Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:36:22.774Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:36:25.098Z] [DESERIALIZE] {"id":"1948182550737797257"}
+✅ Added 0 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:36:25.100Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["trump 200"]},"count":1,"cursor":"DAADDAABCgABGwoZdMkXUC0KAAIbCVW1PldAiQAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCiG9rcAnEAoABhsKIb2tvzywAAA"}}
+[Rettiwt-API] [2025-07-24T15:36:25.100Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:36:25.100Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:36:25.100Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:36:27.170Z] [DESERIALIZE] {"id":"1948182389206782222"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 21:06:27,535 - INFO - 127.0.0.1 - - [24/Jul/2025 21:06:27] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:08:10,951 - INFO - 127.0.0.1 - - [24/Jul/2025 21:08:10] "GET / HTTP/1.1" 200 -
+2025-07-24 21:08:10,976 - INFO - 127.0.0.1 - - [24/Jul/2025 21:08:10] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:08:10,992 - INFO - 127.0.0.1 - - [24/Jul/2025 21:08:10] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:08:15,439 - INFO - Fetching tweets for AI171
+2025-07-24 21:09:54,276 - INFO - Node.js output:
+🚀 Starting fetch for 'ai171 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:38:15.680Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:38:15.681Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:38:15.681Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:38:15.681Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:38:34.225Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:38:34.225Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:38:34.225Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:38:34.225Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:38:38.406Z] [DESERIALIZE] {"id":"1946611470906909163"}
+[Rettiwt-API] [2025-07-24T15:38:38.407Z] [DESERIALIZE] {"id":"1942295855895097448"}
+[Rettiwt-API] [2025-07-24T15:38:38.407Z] [DESERIALIZE] {"id":"1940160943503323305"}
+[Rettiwt-API] [2025-07-24T15:38:38.408Z] [DESERIALIZE] {"id":"1934916056323399751"}
+[Rettiwt-API] [2025-07-24T15:38:38.408Z] [DESERIALIZE] {"id":"1934897341904863487"}
+[Rettiwt-API] [2025-07-24T15:38:38.408Z] [DESERIALIZE] {"id":"1934885453485736164"}
+[Rettiwt-API] [2025-07-24T15:38:38.408Z] [DESERIALIZE] {"id":"1933824939850666416"}
+[Rettiwt-API] [2025-07-24T15:38:38.408Z] [DESERIALIZE] {"id":"1933691135719072073"}
+[Rettiwt-API] [2025-07-24T15:38:38.408Z] [DESERIALIZE] {"id":"1933589911069659575"}
+[Rettiwt-API] [2025-07-24T15:38:38.408Z] [DESERIALIZE] {"id":"1933576075805929953"}
+[Rettiwt-API] [2025-07-24T15:38:38.408Z] [DESERIALIZE] {"id":"1933573692241674322"}
+[Rettiwt-API] [2025-07-24T15:38:38.408Z] [DESERIALIZE] {"id":"1933570703384596618"}
+[Rettiwt-API] [2025-07-24T15:38:38.409Z] [DESERIALIZE] {"id":"1933419211746902505"}
+[Rettiwt-API] [2025-07-24T15:38:38.409Z] [DESERIALIZE] {"id":"1933371533088436567"}
+[Rettiwt-API] [2025-07-24T15:38:38.409Z] [DESERIALIZE] {"id":"1933286818948264312"}
+[Rettiwt-API] [2025-07-24T15:38:38.409Z] [DESERIALIZE] {"id":"1933277490224500859"}
+[Rettiwt-API] [2025-07-24T15:38:38.409Z] [DESERIALIZE] {"id":"1933262296954069461"}
+[Rettiwt-API] [2025-07-24T15:38:38.409Z] [DESERIALIZE] {"id":"1933260318781890850"}
+✅ Added 13 new tweets (total: 13/20)
+📡 Fetching 7 tweets...
+[Rettiwt-API] [2025-07-24T15:38:38.445Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":7,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1FIEX1phIgAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCiJI-8AnEAoABhsKIkj7v9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:38:38.445Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:38:38.445Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:38:38.445Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:38:40.945Z] [DESERIALIZE] {"id":"1933260299122941988"}
+[Rettiwt-API] [2025-07-24T15:38:40.945Z] [DESERIALIZE] {"id":"1933250608070602919"}
+[Rettiwt-API] [2025-07-24T15:38:40.945Z] [DESERIALIZE] {"id":"1933243743571681423"}
+✅ Added 1 new tweets (total: 14/20)
+📡 Fetching 6 tweets...
+[Rettiwt-API] [2025-07-24T15:38:40.949Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":6,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1ELxJ9YgjwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCiJI-8AnEAoABhsKIkj7v7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:38:40.949Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:38:40.949Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:38:40.949Z] [GET] {"target":"USER_CREDENTIAL"}
+🎉 Successfully saved 14 unique English tweets
+
+2025-07-24 21:09:54,277 - ERROR - Node.js errors:
+⚠️ API error (switching key): Request failed with status code 404
+⚠️ API error (switching key): Cannot read properties of undefined (reading 'errors')
+
+2025-07-24 21:09:54,507 - INFO - 127.0.0.1 - - [24/Jul/2025 21:09:54] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:11:00,621 - INFO - 127.0.0.1 - - [24/Jul/2025 21:11:00] "GET / HTTP/1.1" 200 -
+2025-07-24 21:11:00,649 - INFO - 127.0.0.1 - - [24/Jul/2025 21:11:00] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:11:00,649 - INFO - 127.0.0.1 - - [24/Jul/2025 21:11:00] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:16:26,653 - INFO - 127.0.0.1 - - [24/Jul/2025 21:16:26] "GET / HTTP/1.1" 200 -
+2025-07-24 21:16:26,691 - INFO - 127.0.0.1 - - [24/Jul/2025 21:16:26] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:16:26,700 - INFO - 127.0.0.1 - - [24/Jul/2025 21:16:26] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:16:33,797 - INFO - Fetching tweets for AI171
+2025-07-24 21:17:05,918 - INFO - Node.js output:
+🚀 Starting fetch for 'ai171 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:46:34.112Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:46:34.113Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:46:34.113Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:46:34.113Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:46:40.419Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:46:40.420Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:46:40.420Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:46:40.420Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:46:53.173Z] [DESERIALIZE] {"id":"1946611470906909163"}
+[Rettiwt-API] [2025-07-24T15:46:53.173Z] [DESERIALIZE] {"id":"1942295855895097448"}
+[Rettiwt-API] [2025-07-24T15:46:53.174Z] [DESERIALIZE] {"id":"1940160943503323305"}
+[Rettiwt-API] [2025-07-24T15:46:53.174Z] [DESERIALIZE] {"id":"1934916056323399751"}
+[Rettiwt-API] [2025-07-24T15:46:53.174Z] [DESERIALIZE] {"id":"1934897341904863487"}
+[Rettiwt-API] [2025-07-24T15:46:53.174Z] [DESERIALIZE] {"id":"1934885453485736164"}
+[Rettiwt-API] [2025-07-24T15:46:53.174Z] [DESERIALIZE] {"id":"1933824939850666416"}
+[Rettiwt-API] [2025-07-24T15:46:53.174Z] [DESERIALIZE] {"id":"1933691135719072073"}
+[Rettiwt-API] [2025-07-24T15:46:53.174Z] [DESERIALIZE] {"id":"1933589911069659575"}
+[Rettiwt-API] [2025-07-24T15:46:53.175Z] [DESERIALIZE] {"id":"1933576075805929953"}
+[Rettiwt-API] [2025-07-24T15:46:53.175Z] [DESERIALIZE] {"id":"1933573692241674322"}
+[Rettiwt-API] [2025-07-24T15:46:53.175Z] [DESERIALIZE] {"id":"1933570703384596618"}
+[Rettiwt-API] [2025-07-24T15:46:53.175Z] [DESERIALIZE] {"id":"1933419211746902505"}
+[Rettiwt-API] [2025-07-24T15:46:53.175Z] [DESERIALIZE] {"id":"1933371533088436567"}
+[Rettiwt-API] [2025-07-24T15:46:53.175Z] [DESERIALIZE] {"id":"1933286818948264312"}
+[Rettiwt-API] [2025-07-24T15:46:53.175Z] [DESERIALIZE] {"id":"1933277490224500859"}
+[Rettiwt-API] [2025-07-24T15:46:53.175Z] [DESERIALIZE] {"id":"1933262296954069461"}
+[Rettiwt-API] [2025-07-24T15:46:53.175Z] [DESERIALIZE] {"id":"1933260318781890850"}
+✅ Added 13 new tweets (total: 13/20)
+📡 Fetching 7 tweets...
+[Rettiwt-API] [2025-07-24T15:46:53.210Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":7,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1FIEX1phIgAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCiQsvgAnEAoABhsKJCy9_9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:46:53.210Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:46:53.210Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:46:53.210Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:46:56.646Z] [DESERIALIZE] {"id":"1933260299122941988"}
+[Rettiwt-API] [2025-07-24T15:46:56.646Z] [DESERIALIZE] {"id":"1933250608070602919"}
+[Rettiwt-API] [2025-07-24T15:46:56.646Z] [DESERIALIZE] {"id":"1933243743571681423"}
+✅ Added 1 new tweets (total: 14/20)
+📡 Fetching 6 tweets...
+[Rettiwt-API] [2025-07-24T15:46:56.651Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":6,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1ELxJ9YgjwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCiQsvgAnEAoABhsKJCy9_7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:46:56.651Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:46:56.651Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:46:56.651Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:46:59.289Z] [DESERIALIZE] {"id":"1933240425298735567"}
+[Rettiwt-API] [2025-07-24T15:46:59.289Z] [DESERIALIZE] {"id":"1933235177133912435"}
+[Rettiwt-API] [2025-07-24T15:46:59.289Z] [DESERIALIZE] {"id":"1933228667921945069"}
+[Rettiwt-API] [2025-07-24T15:46:59.289Z] [DESERIALIZE] {"id":"1933224240129400909"}
+[Rettiwt-API] [2025-07-24T15:46:59.289Z] [DESERIALIZE] {"id":"1933223134238552530"}
+[Rettiwt-API] [2025-07-24T15:46:59.289Z] [DESERIALIZE] {"id":"1933221549970239579"}
+✅ Added 2 new tweets (total: 16/20)
+📡 Fetching 4 tweets...
+[Rettiwt-API] [2025-07-24T15:46:59.298Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":4,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1C7BzhswWwAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCiQsvgAnEAoABhsKJCy9_4rQAAA"}}
+[Rettiwt-API] [2025-07-24T15:46:59.298Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:46:59.298Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:46:59.298Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:47:01.342Z] [DESERIALIZE] {"id":"1933203385424965905"}
+[Rettiwt-API] [2025-07-24T15:47:01.342Z] [DESERIALIZE] {"id":"1933202235502309727"}
+[Rettiwt-API] [2025-07-24T15:47:01.342Z] [DESERIALIZE] {"id":"1933201473246031932"}
+✅ Added 2 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:47:01.346Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":2,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1Bx_VBdwPAAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCiQsvgAnEAoABhsKJCy9_2PAAAA"}}
+[Rettiwt-API] [2025-07-24T15:47:01.346Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:47:01.346Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:47:01.346Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:47:03.456Z] [DESERIALIZE] {"id":"1933199118698201555"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:47:03.458Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":1,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1BpbHhrB0wAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCiQsvgAnEAoABhsKJCy9_zywAAA"}}
+[Rettiwt-API] [2025-07-24T15:47:03.458Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:47:03.458Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:47:03.458Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:47:05.893Z] [DESERIALIZE] {"id":"1933198187466018871"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 21:17:05,918 - ERROR - Node.js errors:
+⚠️ API error (switching key): Request failed with status code 404
+
+2025-07-24 21:17:06,148 - INFO - 127.0.0.1 - - [24/Jul/2025 21:17:06] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:18:45,973 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:45] "GET / HTTP/1.1" 200 -
+2025-07-24 21:18:45,995 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:45] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:18:46,012 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:46] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:18:49,774 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:49] "GET / HTTP/1.1" 200 -
+2025-07-24 21:18:49,819 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:49] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:18:49,821 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:49] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:18:55,121 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET / HTTP/1.1" 200 -
+2025-07-24 21:18:55,157 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:18:55,157 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:18:55,313 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET / HTTP/1.1" 200 -
+2025-07-24 21:18:55,339 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:18:55,342 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:18:55,456 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET / HTTP/1.1" 200 -
+2025-07-24 21:18:55,485 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:18:55,487 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:18:55,616 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET / HTTP/1.1" 200 -
+2025-07-24 21:18:55,642 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:18:55,644 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:55] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:18:57,181 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:57] "GET / HTTP/1.1" 200 -
+2025-07-24 21:18:57,208 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:57] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:18:57,209 - INFO - 127.0.0.1 - - [24/Jul/2025 21:18:57] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:19:13,445 - INFO - Fetching tweets for modi
+2025-07-24 21:19:40,800 - INFO - Node.js output:
+🚀 Starting fetch for 'modi 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:49:13.816Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["modi 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:49:13.818Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:49:13.818Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:49:13.818Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:49:17.938Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:49:17.938Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:49:17.938Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:49:17.938Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:49:23.206Z] [DESERIALIZE] {"id":"1947826105735598515"}
+[Rettiwt-API] [2025-07-24T15:49:23.206Z] [DESERIALIZE] {"id":"1947545241919361374"}
+[Rettiwt-API] [2025-07-24T15:49:23.206Z] [DESERIALIZE] {"id":"1946457183451029955"}
+[Rettiwt-API] [2025-07-24T15:49:23.206Z] [DESERIALIZE] {"id":"1946069137299783966"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1945755662035865998"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1945158921733464086"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1944871452773376415"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1943166967017586785"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1942869206946521115"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1941474643652616393"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1939626496613556287"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1937170252347142405"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1936896974059393416"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1936415830469910996"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1935722089572712701"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1935684642557821055"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1935377085478092949"}
+[Rettiwt-API] [2025-07-24T15:49:23.207Z] [DESERIALIZE] {"id":"1935288451198226713"}
+✅ Added 4 new tweets (total: 4/20)
+📡 Fetching 16 tweets...
+[Rettiwt-API] [2025-07-24T15:49:23.233Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":16,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIa24aXv5YRGQAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCiS-jIAnEAoABhsKJL6Mf9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:49:23.233Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:49:23.233Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:49:23.233Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:49:26.377Z] [DESERIALIZE] {"id":"1935246663259766989"}
+[Rettiwt-API] [2025-07-24T15:49:26.377Z] [DESERIALIZE] {"id":"1935242291154928038"}
+[Rettiwt-API] [2025-07-24T15:49:26.377Z] [DESERIALIZE] {"id":"1935241564659531862"}
+[Rettiwt-API] [2025-07-24T15:49:26.377Z] [DESERIALIZE] {"id":"1934543945473708147"}
+[Rettiwt-API] [2025-07-24T15:49:26.377Z] [DESERIALIZE] {"id":"1933240425298735567"}
+[Rettiwt-API] [2025-07-24T15:49:26.377Z] [DESERIALIZE] {"id":"1933096052099514466"}
+[Rettiwt-API] [2025-07-24T15:49:26.377Z] [DESERIALIZE] {"id":"1932478750731509976"}
+[Rettiwt-API] [2025-07-24T15:49:26.377Z] [DESERIALIZE] {"id":"1931943715087814765"}
+[Rettiwt-API] [2025-07-24T15:49:26.377Z] [DESERIALIZE] {"id":"1930546950308257794"}
+[Rettiwt-API] [2025-07-24T15:49:26.377Z] [DESERIALIZE] {"id":"1930501542312071471"}
+[Rettiwt-API] [2025-07-24T15:49:26.377Z] [DESERIALIZE] {"id":"1930283432925388859"}
+✅ Added 8 new tweets (total: 12/20)
+📡 Fetching 8 tweets...
+[Rettiwt-API] [2025-07-24T15:49:26.393Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":8,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIayb6OH1bgOwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCiS-jIAnEAoABhsKJL6Mf7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:49:26.394Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:49:26.394Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:49:26.394Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:49:29.903Z] [DESERIALIZE] {"id":"1929777913605296250"}
+[Rettiwt-API] [2025-07-24T15:49:29.903Z] [DESERIALIZE] {"id":"1929754222800916817"}
+[Rettiwt-API] [2025-07-24T15:49:29.903Z] [DESERIALIZE] {"id":"1929738893915836577"}
+[Rettiwt-API] [2025-07-24T15:49:29.903Z] [DESERIALIZE] {"id":"1929432801683681478"}
+[Rettiwt-API] [2025-07-24T15:49:29.903Z] [DESERIALIZE] {"id":"1928883644271309205"}
+[Rettiwt-API] [2025-07-24T15:49:29.903Z] [DESERIALIZE] {"id":"1928439556543807529"}
+[Rettiwt-API] [2025-07-24T15:49:29.903Z] [DESERIALIZE] {"id":"1928385938905768142"}
+✅ Added 3 new tweets (total: 15/20)
+📡 Fetching 5 tweets...
+[Rettiwt-API] [2025-07-24T15:49:29.908Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":5,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIawwDLXlYgzgAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCiS-jIAnEAoABhsKJL6Mf4rQAAA"}}
+[Rettiwt-API] [2025-07-24T15:49:29.908Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:49:29.908Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:49:29.908Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:49:35.229Z] [DESERIALIZE] {"id":"1928174046002160125"}
+[Rettiwt-API] [2025-07-24T15:49:35.229Z] [DESERIALIZE] {"id":"1928080629440053599"}
+[Rettiwt-API] [2025-07-24T15:49:35.229Z] [DESERIALIZE] {"id":"1928066705282191380"}
+[Rettiwt-API] [2025-07-24T15:49:35.229Z] [DESERIALIZE] {"id":"1927781529352106026"}
+✅ Added 3 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:49:35.234Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":2,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIawNsWTZdwKgAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCiS-jIAnEAoABhsKJL6Mf2PAAAA"}}
+[Rettiwt-API] [2025-07-24T15:49:35.234Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:49:35.234Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:49:35.234Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:49:38.181Z] [DESERIALIZE] {"id":"1927115704626470942"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:49:38.184Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":1,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIavn2F51ZgHgAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCiS-jIAnEAoABhsKJL6MfzywAAA"}}
+[Rettiwt-API] [2025-07-24T15:49:38.184Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:49:38.184Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:49:38.184Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:49:40.781Z] [DESERIALIZE] {"id":"1926626341262164191"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 21:19:40,800 - ERROR - Node.js errors:
+⚠️ API error (switching key): Request failed with status code 404
+
+2025-07-24 21:19:40,997 - INFO - 127.0.0.1 - - [24/Jul/2025 21:19:40] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:20:07,355 - INFO - 127.0.0.1 - - [24/Jul/2025 21:20:07] "GET / HTTP/1.1" 200 -
+2025-07-24 21:20:07,382 - INFO - 127.0.0.1 - - [24/Jul/2025 21:20:07] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:20:07,394 - INFO - 127.0.0.1 - - [24/Jul/2025 21:20:07] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:20:12,778 - INFO - Fetching tweets for modi
+2025-07-24 21:20:40,529 - INFO - Node.js output:
+🚀 Starting fetch for 'modi 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:50:13.140Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["modi 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:50:13.141Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:50:13.141Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:50:13.142Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:50:19.059Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:50:19.060Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:50:19.060Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:50:19.060Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:50:24.724Z] [DESERIALIZE] {"id":"1947826105735598515"}
+[Rettiwt-API] [2025-07-24T15:50:24.725Z] [DESERIALIZE] {"id":"1947545241919361374"}
+[Rettiwt-API] [2025-07-24T15:50:24.726Z] [DESERIALIZE] {"id":"1946457183451029955"}
+[Rettiwt-API] [2025-07-24T15:50:24.726Z] [DESERIALIZE] {"id":"1946069137299783966"}
+[Rettiwt-API] [2025-07-24T15:50:24.726Z] [DESERIALIZE] {"id":"1945755662035865998"}
+[Rettiwt-API] [2025-07-24T15:50:24.726Z] [DESERIALIZE] {"id":"1945158921733464086"}
+[Rettiwt-API] [2025-07-24T15:50:24.726Z] [DESERIALIZE] {"id":"1944871452773376415"}
+[Rettiwt-API] [2025-07-24T15:50:24.726Z] [DESERIALIZE] {"id":"1943166967017586785"}
+[Rettiwt-API] [2025-07-24T15:50:24.726Z] [DESERIALIZE] {"id":"1942869206946521115"}
+[Rettiwt-API] [2025-07-24T15:50:24.726Z] [DESERIALIZE] {"id":"1941474643652616393"}
+[Rettiwt-API] [2025-07-24T15:50:24.727Z] [DESERIALIZE] {"id":"1939626496613556287"}
+[Rettiwt-API] [2025-07-24T15:50:24.727Z] [DESERIALIZE] {"id":"1937170252347142405"}
+[Rettiwt-API] [2025-07-24T15:50:24.727Z] [DESERIALIZE] {"id":"1936896974059393416"}
+[Rettiwt-API] [2025-07-24T15:50:24.727Z] [DESERIALIZE] {"id":"1936415830469910996"}
+[Rettiwt-API] [2025-07-24T15:50:24.727Z] [DESERIALIZE] {"id":"1935722089572712701"}
+[Rettiwt-API] [2025-07-24T15:50:24.727Z] [DESERIALIZE] {"id":"1935684642557821055"}
+[Rettiwt-API] [2025-07-24T15:50:24.727Z] [DESERIALIZE] {"id":"1935377085478092949"}
+[Rettiwt-API] [2025-07-24T15:50:24.727Z] [DESERIALIZE] {"id":"1935288451198226713"}
+✅ Added 4 new tweets (total: 4/20)
+📡 Fetching 16 tweets...
+[Rettiwt-API] [2025-07-24T15:50:24.754Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":16,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIa24aXv5YRGQAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCiT7DEAnEAoABhsKJPsMP9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:50:24.754Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:50:24.754Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:50:24.754Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:50:28.382Z] [DESERIALIZE] {"id":"1935246663259766989"}
+[Rettiwt-API] [2025-07-24T15:50:28.382Z] [DESERIALIZE] {"id":"1935242291154928038"}
+[Rettiwt-API] [2025-07-24T15:50:28.382Z] [DESERIALIZE] {"id":"1935241564659531862"}
+[Rettiwt-API] [2025-07-24T15:50:28.382Z] [DESERIALIZE] {"id":"1934543945473708147"}
+[Rettiwt-API] [2025-07-24T15:50:28.382Z] [DESERIALIZE] {"id":"1933240425298735567"}
+[Rettiwt-API] [2025-07-24T15:50:28.382Z] [DESERIALIZE] {"id":"1933096052099514466"}
+[Rettiwt-API] [2025-07-24T15:50:28.382Z] [DESERIALIZE] {"id":"1932478750731509976"}
+[Rettiwt-API] [2025-07-24T15:50:28.382Z] [DESERIALIZE] {"id":"1931943715087814765"}
+[Rettiwt-API] [2025-07-24T15:50:28.382Z] [DESERIALIZE] {"id":"1930546950308257794"}
+[Rettiwt-API] [2025-07-24T15:50:28.382Z] [DESERIALIZE] {"id":"1930501542312071471"}
+[Rettiwt-API] [2025-07-24T15:50:28.382Z] [DESERIALIZE] {"id":"1930283432925388859"}
+✅ Added 8 new tweets (total: 12/20)
+📡 Fetching 8 tweets...
+[Rettiwt-API] [2025-07-24T15:50:28.397Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":8,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIayb6OH1bgOwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCiT7DEAnEAoABhsKJPsMP7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:50:28.397Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:50:28.397Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:50:28.397Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:50:31.147Z] [DESERIALIZE] {"id":"1929777913605296250"}
+[Rettiwt-API] [2025-07-24T15:50:31.147Z] [DESERIALIZE] {"id":"1929754222800916817"}
+[Rettiwt-API] [2025-07-24T15:50:31.147Z] [DESERIALIZE] {"id":"1929738893915836577"}
+[Rettiwt-API] [2025-07-24T15:50:31.147Z] [DESERIALIZE] {"id":"1929432801683681478"}
+[Rettiwt-API] [2025-07-24T15:50:31.147Z] [DESERIALIZE] {"id":"1928883644271309205"}
+[Rettiwt-API] [2025-07-24T15:50:31.148Z] [DESERIALIZE] {"id":"1928439556543807529"}
+[Rettiwt-API] [2025-07-24T15:50:31.148Z] [DESERIALIZE] {"id":"1928385938905768142"}
+✅ Added 3 new tweets (total: 15/20)
+📡 Fetching 5 tweets...
+[Rettiwt-API] [2025-07-24T15:50:31.155Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":5,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIawwDLXlYgzgAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCiT7DEAnEAoABhsKJPsMP4rQAAA"}}
+[Rettiwt-API] [2025-07-24T15:50:31.156Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:50:31.156Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:50:31.156Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:50:34.430Z] [DESERIALIZE] {"id":"1928174046002160125"}
+[Rettiwt-API] [2025-07-24T15:50:34.430Z] [DESERIALIZE] {"id":"1928080629440053599"}
+[Rettiwt-API] [2025-07-24T15:50:34.430Z] [DESERIALIZE] {"id":"1928066705282191380"}
+[Rettiwt-API] [2025-07-24T15:50:34.430Z] [DESERIALIZE] {"id":"1927781529352106026"}
+✅ Added 3 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:50:34.435Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":2,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIawNsWTZdwKgAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCiT7DEAnEAoABhsKJPsMP2PAAAA"}}
+[Rettiwt-API] [2025-07-24T15:50:34.435Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:50:34.435Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:50:34.435Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:50:38.245Z] [DESERIALIZE] {"id":"1927115704626470942"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:50:38.247Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":1,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIavn2F51ZgHgAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCiT7DEAnEAoABhsKJPsMPzywAAA"}}
+[Rettiwt-API] [2025-07-24T15:50:38.247Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:50:38.247Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:50:38.247Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:50:40.514Z] [DESERIALIZE] {"id":"1926626341262164191"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 21:20:40,818 - INFO - 127.0.0.1 - - [24/Jul/2025 21:20:40] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:20:51,951 - INFO - 127.0.0.1 - - [24/Jul/2025 21:20:51] "GET / HTTP/1.1" 200 -
+2025-07-24 21:20:51,976 - INFO - 127.0.0.1 - - [24/Jul/2025 21:20:51] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:20:51,989 - INFO - 127.0.0.1 - - [24/Jul/2025 21:20:51] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:20:56,655 - INFO - Fetching tweets for modi
+2025-07-24 21:21:18,322 - INFO - Node.js output:
+🚀 Starting fetch for 'modi 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:50:57.036Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["modi 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:50:57.039Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:50:57.039Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:50:57.040Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:51:00.452Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:51:00.452Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:51:00.452Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:51:00.452Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:51:04.246Z] [DESERIALIZE] {"id":"1947826105735598515"}
+[Rettiwt-API] [2025-07-24T15:51:04.246Z] [DESERIALIZE] {"id":"1947545241919361374"}
+[Rettiwt-API] [2025-07-24T15:51:04.246Z] [DESERIALIZE] {"id":"1946457183451029955"}
+[Rettiwt-API] [2025-07-24T15:51:04.246Z] [DESERIALIZE] {"id":"1946069137299783966"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1945755662035865998"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1945158921733464086"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1944871452773376415"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1943166967017586785"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1942869206946521115"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1941474643652616393"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1939626496613556287"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1937170252347142405"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1936896974059393416"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1936415830469910996"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1935722089572712701"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1935684642557821055"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1935377085478092949"}
+[Rettiwt-API] [2025-07-24T15:51:04.247Z] [DESERIALIZE] {"id":"1935288451198226713"}
+✅ Added 4 new tweets (total: 4/20)
+📡 Fetching 16 tweets...
+[Rettiwt-API] [2025-07-24T15:51:04.273Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":16,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIa24aXv5YRGQAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCiUhrwAnEAoABhsKJSGu_9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:51:04.273Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:51:04.273Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:51:04.273Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:51:06.728Z] [DESERIALIZE] {"id":"1935246663259766989"}
+[Rettiwt-API] [2025-07-24T15:51:06.728Z] [DESERIALIZE] {"id":"1935242291154928038"}
+[Rettiwt-API] [2025-07-24T15:51:06.728Z] [DESERIALIZE] {"id":"1935241564659531862"}
+[Rettiwt-API] [2025-07-24T15:51:06.728Z] [DESERIALIZE] {"id":"1934543945473708147"}
+[Rettiwt-API] [2025-07-24T15:51:06.728Z] [DESERIALIZE] {"id":"1933240425298735567"}
+[Rettiwt-API] [2025-07-24T15:51:06.729Z] [DESERIALIZE] {"id":"1933096052099514466"}
+[Rettiwt-API] [2025-07-24T15:51:06.729Z] [DESERIALIZE] {"id":"1932478750731509976"}
+[Rettiwt-API] [2025-07-24T15:51:06.729Z] [DESERIALIZE] {"id":"1931943715087814765"}
+[Rettiwt-API] [2025-07-24T15:51:06.729Z] [DESERIALIZE] {"id":"1930546950308257794"}
+[Rettiwt-API] [2025-07-24T15:51:06.729Z] [DESERIALIZE] {"id":"1930501542312071471"}
+[Rettiwt-API] [2025-07-24T15:51:06.729Z] [DESERIALIZE] {"id":"1930283432925388859"}
+✅ Added 8 new tweets (total: 12/20)
+📡 Fetching 8 tweets...
+[Rettiwt-API] [2025-07-24T15:51:06.745Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":8,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIayb6OH1bgOwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCiUhrwAnEAoABhsKJSGu_7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:51:06.745Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:51:06.745Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:51:06.746Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:51:09.833Z] [DESERIALIZE] {"id":"1929777913605296250"}
+[Rettiwt-API] [2025-07-24T15:51:09.833Z] [DESERIALIZE] {"id":"1929754222800916817"}
+[Rettiwt-API] [2025-07-24T15:51:09.833Z] [DESERIALIZE] {"id":"1929738893915836577"}
+[Rettiwt-API] [2025-07-24T15:51:09.833Z] [DESERIALIZE] {"id":"1929432801683681478"}
+[Rettiwt-API] [2025-07-24T15:51:09.834Z] [DESERIALIZE] {"id":"1928883644271309205"}
+[Rettiwt-API] [2025-07-24T15:51:09.834Z] [DESERIALIZE] {"id":"1928439556543807529"}
+[Rettiwt-API] [2025-07-24T15:51:09.834Z] [DESERIALIZE] {"id":"1928385938905768142"}
+✅ Added 3 new tweets (total: 15/20)
+📡 Fetching 5 tweets...
+[Rettiwt-API] [2025-07-24T15:51:09.842Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":5,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIawwDLXlYgzgAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCiUhrwAnEAoABhsKJSGu_4rQAAA"}}
+[Rettiwt-API] [2025-07-24T15:51:09.842Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:51:09.842Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:51:09.842Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:51:12.984Z] [DESERIALIZE] {"id":"1928174046002160125"}
+[Rettiwt-API] [2025-07-24T15:51:12.985Z] [DESERIALIZE] {"id":"1928080629440053599"}
+[Rettiwt-API] [2025-07-24T15:51:12.985Z] [DESERIALIZE] {"id":"1928066705282191380"}
+[Rettiwt-API] [2025-07-24T15:51:12.985Z] [DESERIALIZE] {"id":"1927781529352106026"}
+✅ Added 3 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:51:12.991Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":2,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIawNsWTZdwKgAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCiUhrwAnEAoABhsKJSGu_2PAAAA"}}
+[Rettiwt-API] [2025-07-24T15:51:12.991Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:51:12.991Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:51:12.991Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:51:15.735Z] [DESERIALIZE] {"id":"1927115704626470942"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:51:15.736Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":1,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIavn2F51ZgHgAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCiUhrwAnEAoABhsKJSGu_zywAAA"}}
+[Rettiwt-API] [2025-07-24T15:51:15.736Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:51:15.737Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:51:15.737Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:51:18.302Z] [DESERIALIZE] {"id":"1926626341262164191"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 21:21:18,524 - INFO - 127.0.0.1 - - [24/Jul/2025 21:21:18] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:21:47,109 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-24 21:21:47,109 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-24 21:21:47,111 - INFO -  * Restarting with stat
+2025-07-24 21:21:50,947 - WARNING -  * Debugger is active!
+2025-07-24 21:21:50,951 - INFO -  * Debugger PIN: 884-572-306
+2025-07-24 21:21:51,188 - INFO - 127.0.0.1 - - [24/Jul/2025 21:21:51] "GET / HTTP/1.1" 200 -
+2025-07-24 21:21:51,218 - INFO - 127.0.0.1 - - [24/Jul/2025 21:21:51] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:21:51,220 - INFO - 127.0.0.1 - - [24/Jul/2025 21:21:51] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:22:00,047 - INFO - Fetching tweets for russia
+2025-07-24 21:22:31,552 - INFO - Node.js output:
+🚀 Starting fetch for 'russia 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:52:00.443Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["russia 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:52:00.444Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:52:00.444Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:52:00.445Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:52:21.323Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["russia 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:52:21.323Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:52:21.323Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:52:21.323Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:52:25.408Z] [DESERIALIZE] {"id":"1948341439542255843"}
+[Rettiwt-API] [2025-07-24T15:52:25.408Z] [DESERIALIZE] {"id":"1948299597811499155"}
+[Rettiwt-API] [2025-07-24T15:52:25.408Z] [DESERIALIZE] {"id":"1948298337217659313"}
+[Rettiwt-API] [2025-07-24T15:52:25.408Z] [DESERIALIZE] {"id":"1948263392268939760"}
+[Rettiwt-API] [2025-07-24T15:52:25.408Z] [DESERIALIZE] {"id":"1948206358437699600"}
+[Rettiwt-API] [2025-07-24T15:52:25.409Z] [DESERIALIZE] {"id":"1948197134144278789"}
+[Rettiwt-API] [2025-07-24T15:52:25.409Z] [DESERIALIZE] {"id":"1948196953776599353"}
+[Rettiwt-API] [2025-07-24T15:52:25.409Z] [DESERIALIZE] {"id":"1948175697341517885"}
+[Rettiwt-API] [2025-07-24T15:52:25.409Z] [DESERIALIZE] {"id":"1948171772945371441"}
+[Rettiwt-API] [2025-07-24T15:52:25.409Z] [DESERIALIZE] {"id":"1948139814269677709"}
+[Rettiwt-API] [2025-07-24T15:52:25.409Z] [DESERIALIZE] {"id":"1948110456838865189"}
+[Rettiwt-API] [2025-07-24T15:52:25.409Z] [DESERIALIZE] {"id":"1948109538303107524"}
+[Rettiwt-API] [2025-07-24T15:52:25.409Z] [DESERIALIZE] {"id":"1948107841098969472"}
+[Rettiwt-API] [2025-07-24T15:52:25.409Z] [DESERIALIZE] {"id":"1948048617924596089"}
+[Rettiwt-API] [2025-07-24T15:52:25.409Z] [DESERIALIZE] {"id":"1947637976558936213"}
+[Rettiwt-API] [2025-07-24T15:52:25.410Z] [DESERIALIZE] {"id":"1947462390880342498"}
+[Rettiwt-API] [2025-07-24T15:52:25.410Z] [DESERIALIZE] {"id":"1947384874177892663"}
+[Rettiwt-API] [2025-07-24T15:52:25.410Z] [DESERIALIZE] {"id":"1947328868311822545"}
+[Rettiwt-API] [2025-07-24T15:52:25.410Z] [DESERIALIZE] {"id":"1947324919936581908"}
+✅ Added 16 new tweets (total: 16/20)
+📡 Fetching 4 tweets...
+[Rettiwt-API] [2025-07-24T15:52:25.448Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["russia 200"]},"count":4,"cursor":"DAADDAABCgABGwnmN20W4OMKAAIbBkmygxYBFAAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCiVxFQAnEAoABhsKJXEU_9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:52:25.448Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:52:25.448Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:52:25.448Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:52:29.392Z] [DESERIALIZE] {"id":"1947254963442421887"}
+[Rettiwt-API] [2025-07-24T15:52:29.392Z] [DESERIALIZE] {"id":"1947249546662383754"}
+[Rettiwt-API] [2025-07-24T15:52:29.392Z] [DESERIALIZE] {"id":"1947230351471902791"}
+✅ Added 2 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:52:29.397Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["russia 200"]},"count":2,"cursor":"DAADDAABCgABGwnmN20W4OMKAAIbBfOwE1eARwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCiVxFQAnEAoABhsKJXEU_7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:52:29.397Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:52:29.397Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:52:29.397Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:52:31.531Z] [DESERIALIZE] {"id":"1947211978302501253"}
+[Rettiwt-API] [2025-07-24T15:52:31.532Z] [DESERIALIZE] {"id":"1947190931565994216"}
+✅ Added 2 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 21:22:31,770 - INFO - 127.0.0.1 - - [24/Jul/2025 21:22:31] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:23:06,327 - INFO - 127.0.0.1 - - [24/Jul/2025 21:23:06] "GET / HTTP/1.1" 200 -
+2025-07-24 21:23:06,372 - INFO - 127.0.0.1 - - [24/Jul/2025 21:23:06] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:23:06,388 - INFO - 127.0.0.1 - - [24/Jul/2025 21:23:06] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:23:12,917 - INFO - Fetching tweets for modi
+2025-07-24 21:23:39,680 - INFO - Node.js output:
+🚀 Starting fetch for 'modi 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:53:13.255Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["modi 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:53:13.256Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:53:13.256Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:53:13.257Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:53:19.628Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:53:19.628Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:53:19.628Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:53:19.628Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:53:23.274Z] [DESERIALIZE] {"id":"1947826105735598515"}
+[Rettiwt-API] [2025-07-24T15:53:23.275Z] [DESERIALIZE] {"id":"1947545241919361374"}
+[Rettiwt-API] [2025-07-24T15:53:23.276Z] [DESERIALIZE] {"id":"1946457183451029955"}
+[Rettiwt-API] [2025-07-24T15:53:23.276Z] [DESERIALIZE] {"id":"1946069137299783966"}
+[Rettiwt-API] [2025-07-24T15:53:23.276Z] [DESERIALIZE] {"id":"1945755662035865998"}
+[Rettiwt-API] [2025-07-24T15:53:23.276Z] [DESERIALIZE] {"id":"1945158921733464086"}
+[Rettiwt-API] [2025-07-24T15:53:23.276Z] [DESERIALIZE] {"id":"1944871452773376415"}
+[Rettiwt-API] [2025-07-24T15:53:23.277Z] [DESERIALIZE] {"id":"1943166967017586785"}
+[Rettiwt-API] [2025-07-24T15:53:23.277Z] [DESERIALIZE] {"id":"1942869206946521115"}
+[Rettiwt-API] [2025-07-24T15:53:23.277Z] [DESERIALIZE] {"id":"1941474643652616393"}
+[Rettiwt-API] [2025-07-24T15:53:23.277Z] [DESERIALIZE] {"id":"1939626496613556287"}
+[Rettiwt-API] [2025-07-24T15:53:23.277Z] [DESERIALIZE] {"id":"1937170252347142405"}
+[Rettiwt-API] [2025-07-24T15:53:23.278Z] [DESERIALIZE] {"id":"1936896974059393416"}
+[Rettiwt-API] [2025-07-24T15:53:23.278Z] [DESERIALIZE] {"id":"1936415830469910996"}
+[Rettiwt-API] [2025-07-24T15:53:23.278Z] [DESERIALIZE] {"id":"1935722089572712701"}
+[Rettiwt-API] [2025-07-24T15:53:23.278Z] [DESERIALIZE] {"id":"1935684642557821055"}
+[Rettiwt-API] [2025-07-24T15:53:23.278Z] [DESERIALIZE] {"id":"1935377085478092949"}
+[Rettiwt-API] [2025-07-24T15:53:23.278Z] [DESERIALIZE] {"id":"1935288451198226713"}
+✅ Added 4 new tweets (total: 4/20)
+📡 Fetching 16 tweets...
+[Rettiwt-API] [2025-07-24T15:53:23.305Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":16,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIa24aXv5YRGQAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCiWplcAnEAoABhsKJamVv9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:53:23.305Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:53:23.305Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:53:23.305Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:53:26.304Z] [DESERIALIZE] {"id":"1935246663259766989"}
+[Rettiwt-API] [2025-07-24T15:53:26.304Z] [DESERIALIZE] {"id":"1935242291154928038"}
+[Rettiwt-API] [2025-07-24T15:53:26.304Z] [DESERIALIZE] {"id":"1935241564659531862"}
+[Rettiwt-API] [2025-07-24T15:53:26.304Z] [DESERIALIZE] {"id":"1934543945473708147"}
+[Rettiwt-API] [2025-07-24T15:53:26.304Z] [DESERIALIZE] {"id":"1933240425298735567"}
+[Rettiwt-API] [2025-07-24T15:53:26.304Z] [DESERIALIZE] {"id":"1933096052099514466"}
+[Rettiwt-API] [2025-07-24T15:53:26.304Z] [DESERIALIZE] {"id":"1932478750731509976"}
+[Rettiwt-API] [2025-07-24T15:53:26.304Z] [DESERIALIZE] {"id":"1931943715087814765"}
+[Rettiwt-API] [2025-07-24T15:53:26.304Z] [DESERIALIZE] {"id":"1930546950308257794"}
+[Rettiwt-API] [2025-07-24T15:53:26.304Z] [DESERIALIZE] {"id":"1930501542312071471"}
+[Rettiwt-API] [2025-07-24T15:53:26.304Z] [DESERIALIZE] {"id":"1930283432925388859"}
+✅ Added 8 new tweets (total: 12/20)
+📡 Fetching 8 tweets...
+[Rettiwt-API] [2025-07-24T15:53:26.322Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":8,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIayb6OH1bgOwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCiWplcAnEAoABhsKJamVv7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:53:26.322Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:53:26.322Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:53:26.322Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:53:29.815Z] [DESERIALIZE] {"id":"1929777913605296250"}
+[Rettiwt-API] [2025-07-24T15:53:29.815Z] [DESERIALIZE] {"id":"1929754222800916817"}
+[Rettiwt-API] [2025-07-24T15:53:29.815Z] [DESERIALIZE] {"id":"1929738893915836577"}
+[Rettiwt-API] [2025-07-24T15:53:29.815Z] [DESERIALIZE] {"id":"1929432801683681478"}
+[Rettiwt-API] [2025-07-24T15:53:29.815Z] [DESERIALIZE] {"id":"1928883644271309205"}
+[Rettiwt-API] [2025-07-24T15:53:29.815Z] [DESERIALIZE] {"id":"1928439556543807529"}
+[Rettiwt-API] [2025-07-24T15:53:29.815Z] [DESERIALIZE] {"id":"1928385938905768142"}
+✅ Added 3 new tweets (total: 15/20)
+📡 Fetching 5 tweets...
+[Rettiwt-API] [2025-07-24T15:53:29.820Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":5,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIawwDLXlYgzgAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCiWplcAnEAoABhsKJamVv4rQAAA"}}
+[Rettiwt-API] [2025-07-24T15:53:29.821Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:53:29.821Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:53:29.821Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:53:33.641Z] [DESERIALIZE] {"id":"1928174046002160125"}
+[Rettiwt-API] [2025-07-24T15:53:33.641Z] [DESERIALIZE] {"id":"1928080629440053599"}
+[Rettiwt-API] [2025-07-24T15:53:33.642Z] [DESERIALIZE] {"id":"1928066705282191380"}
+[Rettiwt-API] [2025-07-24T15:53:33.642Z] [DESERIALIZE] {"id":"1927781529352106026"}
+✅ Added 3 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:53:33.649Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":2,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIawNsWTZdwKgAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCiWplcAnEAoABhsKJamVv2PAAAA"}}
+[Rettiwt-API] [2025-07-24T15:53:33.649Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:53:33.649Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:53:33.649Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:53:36.455Z] [DESERIALIZE] {"id":"1927115704626470942"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:53:36.457Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":1,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIavn2F51ZgHgAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCiWplcAnEAoABhsKJamVvzywAAA"}}
+[Rettiwt-API] [2025-07-24T15:53:36.457Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:53:36.457Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:53:36.457Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:53:39.657Z] [DESERIALIZE] {"id":"1926626341262164191"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 21:23:39,888 - INFO - 127.0.0.1 - - [24/Jul/2025 21:23:39] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:24:58,067 - INFO - 127.0.0.1 - - [24/Jul/2025 21:24:58] "GET / HTTP/1.1" 200 -
+2025-07-24 21:24:58,102 - INFO - 127.0.0.1 - - [24/Jul/2025 21:24:58] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:24:58,114 - INFO - 127.0.0.1 - - [24/Jul/2025 21:24:58] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:25:03,282 - INFO - Fetching tweets for modi
+2025-07-24 21:25:24,182 - INFO - Node.js output:
+🚀 Starting fetch for 'modi 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:55:03.527Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["modi 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:55:03.528Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:55:03.528Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:55:03.528Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:55:11.823Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:55:11.824Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:55:11.824Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:55:11.824Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:55:18.713Z] [DESERIALIZE] {"id":"1947826105735598515"}
+[Rettiwt-API] [2025-07-24T15:55:18.714Z] [DESERIALIZE] {"id":"1947545241919361374"}
+[Rettiwt-API] [2025-07-24T15:55:18.714Z] [DESERIALIZE] {"id":"1946457183451029955"}
+[Rettiwt-API] [2025-07-24T15:55:18.714Z] [DESERIALIZE] {"id":"1946069137299783966"}
+[Rettiwt-API] [2025-07-24T15:55:18.714Z] [DESERIALIZE] {"id":"1945755662035865998"}
+[Rettiwt-API] [2025-07-24T15:55:18.714Z] [DESERIALIZE] {"id":"1945158921733464086"}
+[Rettiwt-API] [2025-07-24T15:55:18.714Z] [DESERIALIZE] {"id":"1944871452773376415"}
+[Rettiwt-API] [2025-07-24T15:55:18.714Z] [DESERIALIZE] {"id":"1943166967017586785"}
+[Rettiwt-API] [2025-07-24T15:55:18.715Z] [DESERIALIZE] {"id":"1942869206946521115"}
+[Rettiwt-API] [2025-07-24T15:55:18.715Z] [DESERIALIZE] {"id":"1941474643652616393"}
+[Rettiwt-API] [2025-07-24T15:55:18.715Z] [DESERIALIZE] {"id":"1939626496613556287"}
+[Rettiwt-API] [2025-07-24T15:55:18.715Z] [DESERIALIZE] {"id":"1937170252347142405"}
+[Rettiwt-API] [2025-07-24T15:55:18.715Z] [DESERIALIZE] {"id":"1936896974059393416"}
+[Rettiwt-API] [2025-07-24T15:55:18.715Z] [DESERIALIZE] {"id":"1936415830469910996"}
+[Rettiwt-API] [2025-07-24T15:55:18.715Z] [DESERIALIZE] {"id":"1935722089572712701"}
+[Rettiwt-API] [2025-07-24T15:55:18.715Z] [DESERIALIZE] {"id":"1935684642557821055"}
+[Rettiwt-API] [2025-07-24T15:55:18.715Z] [DESERIALIZE] {"id":"1935377085478092949"}
+[Rettiwt-API] [2025-07-24T15:55:18.715Z] [DESERIALIZE] {"id":"1935288451198226713"}
+✅ Added 4 new tweets (total: 4/20)
+📡 Fetching 16 tweets...
+[Rettiwt-API] [2025-07-24T15:55:18.747Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":16,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIa24aXv5YRGQAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCiYZ6oAnEAoABhsKJhnqf9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:55:18.747Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:55:18.747Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:55:18.747Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:55:22.350Z] [DESERIALIZE] {"id":"1935246663259766989"}
+[Rettiwt-API] [2025-07-24T15:55:22.351Z] [DESERIALIZE] {"id":"1935242291154928038"}
+[Rettiwt-API] [2025-07-24T15:55:22.351Z] [DESERIALIZE] {"id":"1935241564659531862"}
+[Rettiwt-API] [2025-07-24T15:55:22.351Z] [DESERIALIZE] {"id":"1934543945473708147"}
+[Rettiwt-API] [2025-07-24T15:55:22.351Z] [DESERIALIZE] {"id":"1933240425298735567"}
+[Rettiwt-API] [2025-07-24T15:55:22.351Z] [DESERIALIZE] {"id":"1933096052099514466"}
+[Rettiwt-API] [2025-07-24T15:55:22.351Z] [DESERIALIZE] {"id":"1932478750731509976"}
+[Rettiwt-API] [2025-07-24T15:55:22.351Z] [DESERIALIZE] {"id":"1931943715087814765"}
+[Rettiwt-API] [2025-07-24T15:55:22.351Z] [DESERIALIZE] {"id":"1930546950308257794"}
+[Rettiwt-API] [2025-07-24T15:55:22.351Z] [DESERIALIZE] {"id":"1930501542312071471"}
+[Rettiwt-API] [2025-07-24T15:55:22.351Z] [DESERIALIZE] {"id":"1930283432925388859"}
+✅ Added 8 new tweets (total: 12/20)
+📡 Fetching 8 tweets...
+[Rettiwt-API] [2025-07-24T15:55:22.370Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["modi 200"]},"count":8,"cursor":"DAADDAABCgABGwgRheyaUbMKAAIayb6OH1bgOwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCiYZ6oAnEAoABhsKJhnqf7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:55:22.370Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:55:22.370Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:55:22.370Z] [GET] {"target":"USER_CREDENTIAL"}
+🎉 Successfully saved 12 unique English tweets
+
+2025-07-24 21:25:24,184 - ERROR - Node.js errors:
+⚠️ API error (switching key): Request failed with status code 404
+
+2025-07-24 21:25:24,302 - INFO - 127.0.0.1 - - [24/Jul/2025 21:25:24] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:28:37,082 - INFO - 127.0.0.1 - - [24/Jul/2025 21:28:37] "GET / HTTP/1.1" 200 -
+2025-07-24 21:28:37,111 - INFO - 127.0.0.1 - - [24/Jul/2025 21:28:37] "GET /script.js HTTP/1.1" 200 -
+2025-07-24 21:28:37,120 - INFO - 127.0.0.1 - - [24/Jul/2025 21:28:37] "GET /style.css HTTP/1.1" 200 -
+2025-07-24 21:28:53,562 - INFO - Fetching tweets for ukraine
+2025-07-24 21:29:32,924 - INFO - Node.js output:
+🚀 Starting fetch for 'ukraine 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:58:53.902Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["ukraine 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:58:53.903Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:58:53.903Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:58:53.903Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T15:59:04.059Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ukraine 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T15:59:04.060Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:59:04.060Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:59:04.060Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:59:08.521Z] [DESERIALIZE] {"id":"1948312105112793580"}
+[Rettiwt-API] [2025-07-24T15:59:08.522Z] [DESERIALIZE] {"id":"1948299597811499155"}
+[Rettiwt-API] [2025-07-24T15:59:08.522Z] [DESERIALIZE] {"id":"1948298337217659313"}
+[Rettiwt-API] [2025-07-24T15:59:08.522Z] [DESERIALIZE] {"id":"1948289861242462306"}
+[Rettiwt-API] [2025-07-24T15:59:08.522Z] [DESERIALIZE] {"id":"1948263392268939760"}
+[Rettiwt-API] [2025-07-24T15:59:08.522Z] [DESERIALIZE] {"id":"1948197134144278789"}
+[Rettiwt-API] [2025-07-24T15:59:08.523Z] [DESERIALIZE] {"id":"1948196953776599353"}
+[Rettiwt-API] [2025-07-24T15:59:08.523Z] [DESERIALIZE] {"id":"1948175697341517885"}
+[Rettiwt-API] [2025-07-24T15:59:08.523Z] [DESERIALIZE] {"id":"1948171772945371441"}
+[Rettiwt-API] [2025-07-24T15:59:08.523Z] [DESERIALIZE] {"id":"1948157680159162589"}
+[Rettiwt-API] [2025-07-24T15:59:08.523Z] [DESERIALIZE] {"id":"1948110456838865189"}
+[Rettiwt-API] [2025-07-24T15:59:08.524Z] [DESERIALIZE] {"id":"1948109538303107524"}
+[Rettiwt-API] [2025-07-24T15:59:08.524Z] [DESERIALIZE] {"id":"1948104321180029046"}
+[Rettiwt-API] [2025-07-24T15:59:08.524Z] [DESERIALIZE] {"id":"1948061605993853022"}
+[Rettiwt-API] [2025-07-24T15:59:08.524Z] [DESERIALIZE] {"id":"1948048617924596089"}
+[Rettiwt-API] [2025-07-24T15:59:08.524Z] [DESERIALIZE] {"id":"1947744753233059843"}
+[Rettiwt-API] [2025-07-24T15:59:08.524Z] [DESERIALIZE] {"id":"1947744529848664450"}
+[Rettiwt-API] [2025-07-24T15:59:08.525Z] [DESERIALIZE] {"id":"1947680482633597333"}
+✅ Added 14 new tweets (total: 14/20)
+📡 Fetching 6 tweets...
+[Rettiwt-API] [2025-07-24T15:59:08.564Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ukraine 200"]},"count":6,"cursor":"DAADDAABCgABGwnLiXjXcewKAAIbB40UZ1ZBlQAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCib65IAnEAoABhsKJvrkf9jwAAA"}}
+[Rettiwt-API] [2025-07-24T15:59:08.564Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:59:08.564Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:59:08.564Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:59:11.883Z] [DESERIALIZE] {"id":"1947574335092211924"}
+[Rettiwt-API] [2025-07-24T15:59:11.884Z] [DESERIALIZE] {"id":"1947462390880342498"}
+[Rettiwt-API] [2025-07-24T15:59:11.884Z] [DESERIALIZE] {"id":"1947402140634272208"}
+[Rettiwt-API] [2025-07-24T15:59:11.884Z] [DESERIALIZE] {"id":"1947384874177892663"}
+[Rettiwt-API] [2025-07-24T15:59:11.884Z] [DESERIALIZE] {"id":"1947230351471902791"}
+[Rettiwt-API] [2025-07-24T15:59:11.884Z] [DESERIALIZE] {"id":"1947207426010206310"}
+✅ Added 4 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T15:59:11.895Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ukraine 200"]},"count":2,"cursor":"DAADDAABCgABGwnLiXjXcewKAAIbBd7WU1dQZgAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCib65IAnEAoABhsKJvrkf7HgAAA"}}
+[Rettiwt-API] [2025-07-24T15:59:11.895Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:59:11.895Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:59:11.895Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:59:14.254Z] [DESERIALIZE] {"id":"1947190931565994216"}
+[Rettiwt-API] [2025-07-24T15:59:14.254Z] [DESERIALIZE] {"id":"1947144273973113001"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:59:14.260Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ukraine 200"]},"count":1,"cursor":"DAADDAABCgABGwnLiXjXcewKAAIbBaVmmJpwqQAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCib65IAnEAoABhsKJvrkf4rQAAA"}}
+[Rettiwt-API] [2025-07-24T15:59:14.260Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:59:14.260Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:59:14.260Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:59:28.983Z] [DESERIALIZE] {"id":"1946897097283736012"}
+✅ Added 0 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:59:28.985Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ukraine 200"]},"count":1,"cursor":"DAADDAABCgABGwnLiXjXcewKAAIbBMSYSdYRzAAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCib65IAnEAoABhsKJvrkf2PAAAA"}}
+[Rettiwt-API] [2025-07-24T15:59:28.985Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:59:28.985Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:59:28.985Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:59:31.104Z] [DESERIALIZE] {"id":"1946774971130224920"}
+✅ Added 0 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T15:59:31.105Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ukraine 200"]},"count":1,"cursor":"DAADDAABCgABGwnLiXjXcewKAAIbBFWFk9ahGAAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCib65IAnEAoABhsKJvrkfzywAAA"}}
+[Rettiwt-API] [2025-07-24T15:59:31.105Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T15:59:31.105Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T15:59:31.105Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T15:59:32.901Z] [DESERIALIZE] {"id":"1946569273289162886"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 21:29:33,129 - INFO - 127.0.0.1 - - [24/Jul/2025 21:29:33] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:32:29,953 - INFO - Fetching tweets for air india
+2025-07-24 21:32:52,168 - INFO - Node.js output:
+🚀 Starting fetch for 'air india 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T16:02:30.241Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["air india 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T16:02:30.242Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:02:30.242Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:02:30.242Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T16:02:36.139Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["air india 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T16:02:36.140Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:02:36.140Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:02:36.140Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T16:02:41.996Z] [DESERIALIZE] {"id":"1831336184829911124"}
+[Rettiwt-API] [2025-07-24T16:02:41.997Z] [DESERIALIZE] {"id":"1788109166768275774"}
+[Rettiwt-API] [2025-07-24T16:02:41.997Z] [DESERIALIZE] {"id":"1627529835798200321"}
+[Rettiwt-API] [2025-07-24T16:02:41.997Z] [DESERIALIZE] {"id":"1626530680048963586"}
+[Rettiwt-API] [2025-07-24T16:02:41.997Z] [DESERIALIZE] {"id":"1610364985108213760"}
+✅ Added 2 new tweets (total: 2/20)
+📡 Fetching 18 tweets...
+[Rettiwt-API] [2025-07-24T16:02:42.009Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["air india 200"]},"count":18,"cursor":"DAADDAABCgABGWo2jqkbIFQKAAIWWSpsABowAAAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCifLOwAnEAoABhsKJ8s6_9jwAAA"}}
+[Rettiwt-API] [2025-07-24T16:02:42.009Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:02:42.009Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:02:42.009Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T16:02:44.782Z] [DESERIALIZE] {"id":"1531210046071140352"}
+[Rettiwt-API] [2025-07-24T16:02:44.782Z] [DESERIALIZE] {"id":"1398993695991427075"}
+[Rettiwt-API] [2025-07-24T16:02:44.783Z] [DESERIALIZE] {"id":"1397847106350583808"}
+[Rettiwt-API] [2025-07-24T16:02:44.783Z] [DESERIALIZE] {"id":"1216701724057956353"}
+[Rettiwt-API] [2025-07-24T16:02:44.783Z] [DESERIALIZE] {"id":"1070335154416177153"}
+[Rettiwt-API] [2025-07-24T16:02:44.783Z] [DESERIALIZE] {"id":"965954072300965889"}
+✅ Added 5 new tweets (total: 7/20)
+📡 Fetching 13 tweets...
+[Rettiwt-API] [2025-07-24T16:02:44.793Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["air india 200"]},"count":13,"cursor":"DAADDAABCgABGWo2jqkbIFQKAAINZ8IcZNdQAQAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCifLOwAnEAoABhsKJ8s6_7HgAAA"}}
+[Rettiwt-API] [2025-07-24T16:02:44.793Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:02:44.793Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:02:44.793Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T16:02:47.884Z] [DESERIALIZE] {"id":"960412123384950784"}
+[Rettiwt-API] [2025-07-24T16:02:47.885Z] [DESERIALIZE] {"id":"910045814726180864"}
+[Rettiwt-API] [2025-07-24T16:02:47.885Z] [DESERIALIZE] {"id":"815268367988887556"}
+[Rettiwt-API] [2025-07-24T16:02:47.885Z] [DESERIALIZE] {"id":"794168853844500480"}
+[Rettiwt-API] [2025-07-24T16:02:47.885Z] [DESERIALIZE] {"id":"727787955146752001"}
+[Rettiwt-API] [2025-07-24T16:02:47.885Z] [DESERIALIZE] {"id":"458206235624353792"}
+[Rettiwt-API] [2025-07-24T16:02:47.885Z] [DESERIALIZE] {"id":"409024449065648128"}
+[Rettiwt-API] [2025-07-24T16:02:47.885Z] [DESERIALIZE] {"id":"199742691897131008"}
+[Rettiwt-API] [2025-07-24T16:02:47.885Z] [DESERIALIZE] {"id":"199736397576404993"}
+[Rettiwt-API] [2025-07-24T16:02:47.885Z] [DESERIALIZE] {"id":"166751027738058752"}
+[Rettiwt-API] [2025-07-24T16:02:47.885Z] [DESERIALIZE] {"id":"127021302430179328"}
+✅ Added 7 new tweets (total: 14/20)
+📡 Fetching 6 tweets...
+[Rettiwt-API] [2025-07-24T16:02:47.898Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["air india 200"]},"count":6,"cursor":"DAADDAABCgABGWo2jqkbIFQKAAIBw0UzmkIgAAAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCifLOwAnEAoABhsKJ8s6_4rQAAA"}}
+[Rettiwt-API] [2025-07-24T16:02:47.898Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:02:47.898Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:02:47.898Z] [GET] {"target":"USER_CREDENTIAL"}
+🎉 Successfully saved 14 unique English tweets
+
+2025-07-24 21:32:52,300 - INFO - 127.0.0.1 - - [24/Jul/2025 21:32:52] "POST /analyze HTTP/1.1" 200 -
+2025-07-24 21:35:12,392 - INFO - Fetching tweets for AI171
+2025-07-24 21:35:34,529 - INFO - Node.js output:
+🚀 Starting fetch for 'ai171 200'...
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T16:05:12.725Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"keywords":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T16:05:12.728Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:05:12.728Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:05:12.728Z] [GET] {"target":"USER_CREDENTIAL"}
+📡 Fetching 20 tweets...
+[Rettiwt-API] [2025-07-24T16:05:16.345Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":20}}
+[Rettiwt-API] [2025-07-24T16:05:16.345Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:05:16.345Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:05:16.345Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T16:05:21.454Z] [DESERIALIZE] {"id":"1946611470906909163"}
+[Rettiwt-API] [2025-07-24T16:05:21.456Z] [DESERIALIZE] {"id":"1942295855895097448"}
+[Rettiwt-API] [2025-07-24T16:05:21.456Z] [DESERIALIZE] {"id":"1940160943503323305"}
+[Rettiwt-API] [2025-07-24T16:05:21.456Z] [DESERIALIZE] {"id":"1934916056323399751"}
+[Rettiwt-API] [2025-07-24T16:05:21.456Z] [DESERIALIZE] {"id":"1934897341904863487"}
+[Rettiwt-API] [2025-07-24T16:05:21.456Z] [DESERIALIZE] {"id":"1934885453485736164"}
+[Rettiwt-API] [2025-07-24T16:05:21.456Z] [DESERIALIZE] {"id":"1933824939850666416"}
+[Rettiwt-API] [2025-07-24T16:05:21.456Z] [DESERIALIZE] {"id":"1933691135719072073"}
+[Rettiwt-API] [2025-07-24T16:05:21.457Z] [DESERIALIZE] {"id":"1933589911069659575"}
+[Rettiwt-API] [2025-07-24T16:05:21.457Z] [DESERIALIZE] {"id":"1933576075805929953"}
+[Rettiwt-API] [2025-07-24T16:05:21.457Z] [DESERIALIZE] {"id":"1933573692241674322"}
+[Rettiwt-API] [2025-07-24T16:05:21.457Z] [DESERIALIZE] {"id":"1933570703384596618"}
+[Rettiwt-API] [2025-07-24T16:05:21.457Z] [DESERIALIZE] {"id":"1933419211746902505"}
+[Rettiwt-API] [2025-07-24T16:05:21.457Z] [DESERIALIZE] {"id":"1933371533088436567"}
+[Rettiwt-API] [2025-07-24T16:05:21.458Z] [DESERIALIZE] {"id":"1933286818948264312"}
+[Rettiwt-API] [2025-07-24T16:05:21.458Z] [DESERIALIZE] {"id":"1933277490224500859"}
+[Rettiwt-API] [2025-07-24T16:05:21.458Z] [DESERIALIZE] {"id":"1933262296954069461"}
+[Rettiwt-API] [2025-07-24T16:05:21.458Z] [DESERIALIZE] {"id":"1933260318781890850"}
+✅ Added 13 new tweets (total: 13/20)
+📡 Fetching 7 tweets...
+[Rettiwt-API] [2025-07-24T16:05:21.498Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":7,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1FIEX1phIgAIAAIAAAACCAADAAAAAAgABAAAAAAKAAUbCihm3EAnEAoABhsKKGbcP9jwAAA"}}
+[Rettiwt-API] [2025-07-24T16:05:21.498Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:05:21.498Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:05:21.498Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T16:05:23.803Z] [DESERIALIZE] {"id":"1933260299122941988"}
+[Rettiwt-API] [2025-07-24T16:05:23.803Z] [DESERIALIZE] {"id":"1933250608070602919"}
+[Rettiwt-API] [2025-07-24T16:05:23.803Z] [DESERIALIZE] {"id":"1933243743571681423"}
+✅ Added 1 new tweets (total: 14/20)
+📡 Fetching 6 tweets...
+[Rettiwt-API] [2025-07-24T16:05:23.808Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":6,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1ELxJ9YgjwAIAAIAAAACCAADAAAAAAgABAAAAAEKAAUbCihm3EAnEAoABhsKKGbcP7HgAAA"}}
+[Rettiwt-API] [2025-07-24T16:05:23.808Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:05:23.808Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:05:23.809Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T16:05:27.109Z] [DESERIALIZE] {"id":"1933240425298735567"}
+[Rettiwt-API] [2025-07-24T16:05:27.109Z] [DESERIALIZE] {"id":"1933235177133912435"}
+[Rettiwt-API] [2025-07-24T16:05:27.109Z] [DESERIALIZE] {"id":"1933228667921945069"}
+[Rettiwt-API] [2025-07-24T16:05:27.109Z] [DESERIALIZE] {"id":"1933224240129400909"}
+[Rettiwt-API] [2025-07-24T16:05:27.109Z] [DESERIALIZE] {"id":"1933223134238552530"}
+[Rettiwt-API] [2025-07-24T16:05:27.109Z] [DESERIALIZE] {"id":"1933221549970239579"}
+✅ Added 2 new tweets (total: 16/20)
+📡 Fetching 4 tweets...
+[Rettiwt-API] [2025-07-24T16:05:27.116Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":4,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1C7BzhswWwAIAAIAAAACCAADAAAAAAgABAAAAAIKAAUbCihm3EAnEAoABhsKKGbcP4rQAAA"}}
+[Rettiwt-API] [2025-07-24T16:05:27.116Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:05:27.116Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:05:27.116Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T16:05:29.112Z] [DESERIALIZE] {"id":"1933203385424965905"}
+[Rettiwt-API] [2025-07-24T16:05:29.112Z] [DESERIALIZE] {"id":"1933202235502309727"}
+[Rettiwt-API] [2025-07-24T16:05:29.112Z] [DESERIALIZE] {"id":"1933201473246031932"}
+✅ Added 2 new tweets (total: 18/20)
+📡 Fetching 2 tweets...
+[Rettiwt-API] [2025-07-24T16:05:29.116Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":2,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1Bx_VBdwPAAIAAIAAAACCAADAAAAAAgABAAAAAMKAAUbCihm3EAnEAoABhsKKGbcP2PAAAA"}}
+[Rettiwt-API] [2025-07-24T16:05:29.116Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:05:29.116Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:05:29.116Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T16:05:32.542Z] [DESERIALIZE] {"id":"1933199118698201555"}
+✅ Added 1 new tweets (total: 19/20)
+📡 Fetching 1 tweets...
+[Rettiwt-API] [2025-07-24T16:05:32.543Z] [REQUEST] {"resource":"TWEET_SEARCH","args":{"filter":{"hashtags":["ai171 200"]},"count":1,"cursor":"DAADDAABCgABGwPA0bcbYesKAAIa1BpbHhrB0wAIAAIAAAACCAADAAAAAAgABAAAAAQKAAUbCihm3EAnEAoABhsKKGbcPzywAAA"}}
+[Rettiwt-API] [2025-07-24T16:05:32.543Z] [AUTHORIZATION] {"authenticated":true}
+[Rettiwt-API] [2025-07-24T16:05:32.543Z] [VALIDATE] {"target":"FETCH_ARGS"}
+[Rettiwt-API] [2025-07-24T16:05:32.543Z] [GET] {"target":"USER_CREDENTIAL"}
+[Rettiwt-API] [2025-07-24T16:05:34.513Z] [DESERIALIZE] {"id":"1933198187466018871"}
+✅ Added 1 new tweets (total: 20/20)
+🎉 Successfully saved 20 unique English tweets
+
+2025-07-24 21:35:34,770 - INFO - 127.0.0.1 - - [24/Jul/2025 21:35:34] "POST /analyze HTTP/1.1" 200 -
